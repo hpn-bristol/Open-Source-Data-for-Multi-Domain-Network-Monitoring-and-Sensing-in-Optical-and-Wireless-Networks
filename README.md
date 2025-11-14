@@ -73,10 +73,25 @@ WiFi data metrics are as follows:
 #### Additional Notes:
 - Each file in LiFi and WiFi cell data corresponds to a specific CPE, identified by MAC address. The data is presented from the perspective of the access points, such as the amount of data transmitted to and received from each CPE by the access points, and the signal strength detected for each CPE at the access points.
 
-## Contact Information
-Author: 
-- Sen Shen
-- Xueqing Zhou [xueqing.zhou@bristol.ac.uk](mailto:xueqing.zhou@bristol.ac.uk)
-- Wanxin Zhao
+## 🙌Acknowledgment
 
-Feel free to contact us if you have any questions regarding the dataset.
+This work is supported by the **European Commission’s Horizon research and innovation program's Allegro project (Grant No. 101092766)**.  
+
+If you use this repository in your research, please cite the following paper:
+ 
+> "**S. Shen et al., "Unified monitoring and telemetry platform supporting network intelligence in optical networks," in Journal of Optical Communications and Networking, vol. 17, no. 2, pp. 139-151, February 2025, doi: 10.1364/JOCN.538552.**"  
+> [[https://doi.org/10.1364/JOCN.538552](https://ieeexplore.ieee.org/document/10856707)]
+
+<br>
+
+
+## 📧Contact Information
+If you have any questions regarding the dataset or want to have some collaborations, please feel free to contact:
+
+Dr. Shuangyi Yan: shuangyi.yan@bristol.ac.uk (Team Leader & Project Manager)
+
+Dr. Sen Shen: sen.shen@bristol.ac.uk (Optical Networks & Sensing)
+
+Miss. Xueqing Zhou: xueqing.zhou@bristol.ac.uk (Wireless/Radio Access Networks)
+
+Miss. Wanxin Zhao: wanxin.zhao@bristol.ac.uk (Optical Networks & Sensing)
