@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="trace">
+    <Properties>
+        <Property name="filename">sm_logs</Property>
+        <Property name="tracefile">sm_trace</Property>
+        <Property name="logbase">${sys:user.home}</Property>        
+    </Properties>
+    <Appenders>
+        <Console name="CONSOLE" target="SYSTEM_OUT" follow="true">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+        </Console>
+        <RollingFile name="File" fileName="${sys:user.home}/.ciena_desktop/sitemanager/LOGS/${filename}_${sys:PID}.log" filePattern="$${sys:user.home}/.ciena_desktop/sitemanager/LOGS/$${filename}_${sys:PID}.%d{yyyy-MM-dd}-%i.log" immediateFlush="true" append="true">
+            <PatternLayout>
+                <pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <OnStartupTriggeringPolicy />
+                <!-- TimeBasedTriggeringPolicy /-->
+                <SizeBasedTriggeringPolicy size="10 MB" />                
+            </Policies>
+            <DefaultRolloverStrategy max="100"/>
+        </RollingFile>
+        <RollingFile name="TraceFile" fileName="${sys:user.home}/.ciena_desktop/sitemanager/LOGS/${tracefile}_${sys:PID}.log" filePattern="$${sys:user.home}/.ciena_desktop/sitemanager/LOGS/$${tracefile}_${sys:PID}.%d{yyyy-MM-dd}-%i.log" immediateFlush="false" append="true">
+	            <PatternLayout>
+	                <pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</pattern>
+	            </PatternLayout>
+	            <Policies>
+	                <OnStartupTriggeringPolicy />
+	                <!-- TimeBasedTriggeringPolicy /-->
+	                <SizeBasedTriggeringPolicy size="10 MB" />                
+	            </Policies>
+	            <DefaultRolloverStrategy max="100"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <logger name="com.nortel" level="TRACE" additivity="false">                        
+            <AppenderRef ref="TraceFile">
+            	<MarkerFilter marker="TRACE_MARKER" onMatch="ACCEPT" onMismatch="NEUTRAL"/>
+            </AppenderRef>	
+            <AppenderRef ref="File">
+             	<MarkerFilter marker="TRACE_MARKER" onMatch="DENY" onMismatch="ACCEPT"/>
+            </AppenderRef>                        
+            <AppenderRef ref="CONSOLE" />
+        </logger>
+        <logger name="com.ciena" level="TRACE" additivity="false">
+            <AppenderRef ref="TraceFile">
+	        <MarkerFilter marker="TRACE_MARKER" onMatch="ACCEPT" onMismatch="NEUTRAL"/>
+            </AppenderRef>
+            <AppenderRef ref="File">
+            	<MarkerFilter marker="TRACE_MARKER" onMatch="DENY" onMismatch="ACCEPT"/>
+            </AppenderRef>            
+            <AppenderRef ref="CONSOLE" />
+        </logger>        
+    </Loggers>
+</Configuration>

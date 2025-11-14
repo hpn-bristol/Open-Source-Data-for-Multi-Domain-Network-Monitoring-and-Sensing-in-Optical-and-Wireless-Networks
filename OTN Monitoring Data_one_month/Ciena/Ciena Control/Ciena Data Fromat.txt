@@ -1,0 +1,1174 @@
+{
+  "all": [
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "-10.00",
+      "vldty": "PRTL",
+      "locn": "NEND",
+      "dirn": "RCV",
+      "port-mode": "SONET",
+      "mon-type": [
+        "OPR-OCH"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "12-08"
+      ],
+      "montm": [
+        "14-39"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "-5.00",
+      "vldty": "PRTL",
+      "locn": "NEND",
+      "dirn": "TRMT",
+      "port-mode": "SONET",
+      "mon-type": [
+        "OPT-OCH"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "12-08"
+      ],
+      "montm": [
+        "14-39"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "-10",
+      "vldty": "PRTL",
+      "locn": "NEND",
+      "dirn": "RCV",
+      "port-mode": "SONET",
+      "mon-type": [
+        "OPRN-OCH"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "12-08"
+      ],
+      "montm": [
+        "14-39"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "0",
+      "vldty": "ADJ",
+      "locn": "NEND",
+      "dirn": "TRMT",
+      "port-mode": "SONET",
+      "mon-type": [
+        "OPTN-OCH"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "12-08"
+      ],
+      "montm": [
+        "14-39"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "16244028",
+      "vldty": "ADJ",
+      "locn": "NEND",
+      "dirn": "RCV",
+      "port-mode": "SONET",
+      "mon-type": [
+        "ES-OTU"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "05-26"
+      ],
+      "montm": [
+        "14-33"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "16244028",
+      "vldty": "ADJ",
+      "locn": "NEND",
+      "dirn": "RCV",
+      "port-mode": "SONET",
+      "mon-type": [
+        "SES-OTU"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "05-26"
+      ],
+      "montm": [
+        "14-33"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "16244028",
+      "vldty": "ADJ",
+      "locn": "NEND",
+      "dirn": "RCV",
+      "port-mode": "SONET",
+      "mon-type": [
+        "SEFS-OTU"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "05-26"
+      ],
+      "montm": [
+        "14-33"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "715544252",
+      "vldty": "ADJ",
+      "locn": "NEND",
+      "dirn": "RCV",
+      "port-mode": "SONET",
+      "mon-type": [
+        "FEC-OTU"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "05-26"
+      ],
+      "montm": [
+        "14-33"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "16244032",
+      "vldty": "ADJ",
+      "locn": "NEND",
+      "dirn": "RCV",
+      "port-mode": "SONET",
+      "mon-type": [
+        "HCCS-OTU"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "05-26"
+      ],
+      "montm": [
+        "14-33"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "1E-37",
+      "vldty": "ADJ",
+      "locn": "NEND",
+      "dirn": "RCV",
+      "port-mode": "SONET",
+      "mon-type": [
+        "PFBERE-OTU"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "05-26"
+      ],
+      "montm": [
+        "14-33"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "7.5E-09",
+      "vldty": "ADJ",
+      "locn": "NEND",
+      "dirn": "RCV",
+      "port-mode": "SONET",
+      "mon-type": [
+        "PRFBER-OTU"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "05-26"
+      ],
+      "montm": [
+        "14-33"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "-4.43",
+      "vldty": "PRTL",
+      "locn": "NEND",
+      "dirn": "TRMT",
+      "port-mode": "SONET",
+      "mon-type": [
+        "OPTAVG-OCH"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "05-26"
+      ],
+      "montm": [
+        "14-33"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "-5.00",
+      "vldty": "PRTL",
+      "locn": "NEND",
+      "dirn": "TRMT",
+      "port-mode": "SONET",
+      "mon-type": [
+        "OPTMIN-OCH"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "05-26"
+      ],
+      "montm": [
+        "14-33"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "-4.90",
+      "vldty": "PRTL",
+      "locn": "NEND",
+      "dirn": "TRMT",
+      "port-mode": "SONET",
+      "mon-type": [
+        "OPTMAX-OCH"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "05-26"
+      ],
+      "montm": [
+        "14-33"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "1",
+      "vldty": "ADJ",
+      "locn": "NEND",
+      "dirn": "RCV",
+      "port-mode": "SONET",
+      "mon-type": [
+        "DGDAVG-OCH"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "05-26"
+      ],
+      "montm": [
+        "14-33"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "3",
+      "vldty": "ADJ",
+      "locn": "NEND",
+      "dirn": "RCV",
+      "port-mode": "SONET",
+      "mon-type": [
+        "DGDMAX-OCH"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "05-26"
+      ],
+      "montm": [
+        "14-33"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "1.7E-07",
+      "vldty": "ADJ",
+      "locn": "NEND",
+      "dirn": "RCV",
+      "port-mode": "SONET",
+      "mon-type": [
+        "PRFBERMAX-OTU"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "05-26"
+      ],
+      "montm": [
+        "14-33"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "-45.00",
+      "vldty": "ADJ",
+      "locn": "NEND",
+      "dirn": "RCV",
+      "port-mode": "SONET",
+      "mon-type": [
+        "OPRMIN-OCH"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "05-26"
+      ],
+      "montm": [
+        "14-33"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "-6.80",
+      "vldty": "ADJ",
+      "locn": "NEND",
+      "dirn": "RCV",
+      "port-mode": "SONET",
+      "mon-type": [
+        "OPRMAX-OCH"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "05-26"
+      ],
+      "montm": [
+        "14-33"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "-40.05",
+      "vldty": "ADJ",
+      "locn": "NEND",
+      "dirn": "RCV",
+      "port-mode": "SONET",
+      "mon-type": [
+        "OPRAVG-OCH"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "05-26"
+      ],
+      "montm": [
+        "14-33"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "14.14",
+      "vldty": "ADJ",
+      "locn": "NEND",
+      "dirn": "RCV",
+      "port-mode": "SONET",
+      "mon-type": [
+        "QMIN-OTU"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "05-26"
+      ],
+      "montm": [
+        "14-33"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "18.00",
+      "vldty": "ADJ",
+      "locn": "NEND",
+      "dirn": "RCV",
+      "port-mode": "SONET",
+      "mon-type": [
+        "QMAX-OTU"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "05-26"
+      ],
+      "montm": [
+        "14-33"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "15.76",
+      "vldty": "ADJ",
+      "locn": "NEND",
+      "dirn": "RCV",
+      "port-mode": "SONET",
+      "mon-type": [
+        "QAVG-OTU"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "05-26"
+      ],
+      "montm": [
+        "14-33"
+      ],
+      "index": [
+        "0"
+      ]
+    },
+    {
+      "shelf": "OTM4-1-11-1",
+      "aidtype": "OTM",
+      "monval": "1.274",
+      "vldty": "ADJ",
+      "locn": "NEND",
+      "dirn": "RCV",
+      "port-mode": "SONET",
+      "mon-type": [
+        "QSTDEV-OTU"
+      ],
+      "tmper": [
+        "1-UNT"
+      ],
+      "mondat": [
+        "05-26"
+      ],
+      "montm": [
+        "14-33"
+      ],
+      "index": [
+        "0"
+      ]
+    }
+  ],
+  "pmconfig": [
+    {
+      "shelf": "OTM4-1-11-1",
+      "hccs-ref": "0.00",
+      "aidtype": "OTM"
+    }
+  ],
+  "otm": {
+    "pmconfig": [
+      {
+        "otmaid": "OTM4-1-11-1",
+        "hccs-ref": "0.00",
+        "aidtype": "OTM"
+      }
+    ],
+    "counts": [
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "-10.00",
+        "vldty": "PRTL",
+        "locn": "NEND",
+        "dirn": "RCV",
+        "port-mode": "SONET",
+        "montype": [
+          "OPR-OCH"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "12-08"
+        ],
+        "montm": [
+          "14-39"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "-5.00",
+        "vldty": "PRTL",
+        "locn": "NEND",
+        "dirn": "TRMT",
+        "port-mode": "SONET",
+        "montype": [
+          "OPT-OCH"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "12-08"
+        ],
+        "montm": [
+          "14-39"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "-10",
+        "vldty": "PRTL",
+        "locn": "NEND",
+        "dirn": "RCV",
+        "port-mode": "SONET",
+        "montype": [
+          "OPRN-OCH"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "12-08"
+        ],
+        "montm": [
+          "14-39"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "0",
+        "vldty": "ADJ",
+        "locn": "NEND",
+        "dirn": "TRMT",
+        "port-mode": "SONET",
+        "montype": [
+          "OPTN-OCH"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "12-08"
+        ],
+        "montm": [
+          "14-39"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "16244028",
+        "vldty": "ADJ",
+        "locn": "NEND",
+        "dirn": "RCV",
+        "port-mode": "SONET",
+        "montype": [
+          "ES-OTU"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "05-26"
+        ],
+        "montm": [
+          "14-33"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "16244028",
+        "vldty": "ADJ",
+        "locn": "NEND",
+        "dirn": "RCV",
+        "port-mode": "SONET",
+        "montype": [
+          "SES-OTU"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "05-26"
+        ],
+        "montm": [
+          "14-33"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "16244028",
+        "vldty": "ADJ",
+        "locn": "NEND",
+        "dirn": "RCV",
+        "port-mode": "SONET",
+        "montype": [
+          "SEFS-OTU"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "05-26"
+        ],
+        "montm": [
+          "14-33"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "715544774",
+        "vldty": "ADJ",
+        "locn": "NEND",
+        "dirn": "RCV",
+        "port-mode": "SONET",
+        "montype": [
+          "FEC-OTU"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "05-26"
+        ],
+        "montm": [
+          "14-33"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "16244032",
+        "vldty": "ADJ",
+        "locn": "NEND",
+        "dirn": "RCV",
+        "port-mode": "SONET",
+        "montype": [
+          "HCCS-OTU"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "05-26"
+        ],
+        "montm": [
+          "14-33"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "1E-37",
+        "vldty": "ADJ",
+        "locn": "NEND",
+        "dirn": "RCV",
+        "port-mode": "SONET",
+        "montype": [
+          "PFBERE-OTU"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "05-26"
+        ],
+        "montm": [
+          "14-33"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "7.5E-09",
+        "vldty": "ADJ",
+        "locn": "NEND",
+        "dirn": "RCV",
+        "port-mode": "SONET",
+        "montype": [
+          "PRFBER-OTU"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "05-26"
+        ],
+        "montm": [
+          "14-33"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "-4.43",
+        "vldty": "PRTL",
+        "locn": "NEND",
+        "dirn": "TRMT",
+        "port-mode": "SONET",
+        "montype": [
+          "OPTAVG-OCH"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "05-26"
+        ],
+        "montm": [
+          "14-33"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "-5.00",
+        "vldty": "PRTL",
+        "locn": "NEND",
+        "dirn": "TRMT",
+        "port-mode": "SONET",
+        "montype": [
+          "OPTMIN-OCH"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "05-26"
+        ],
+        "montm": [
+          "14-33"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "-4.90",
+        "vldty": "PRTL",
+        "locn": "NEND",
+        "dirn": "TRMT",
+        "port-mode": "SONET",
+        "montype": [
+          "OPTMAX-OCH"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "05-26"
+        ],
+        "montm": [
+          "14-33"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "1",
+        "vldty": "ADJ",
+        "locn": "NEND",
+        "dirn": "RCV",
+        "port-mode": "SONET",
+        "montype": [
+          "DGDAVG-OCH"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "05-26"
+        ],
+        "montm": [
+          "14-33"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "3",
+        "vldty": "ADJ",
+        "locn": "NEND",
+        "dirn": "RCV",
+        "port-mode": "SONET",
+        "montype": [
+          "DGDMAX-OCH"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "05-26"
+        ],
+        "montm": [
+          "14-33"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "1.7E-07",
+        "vldty": "ADJ",
+        "locn": "NEND",
+        "dirn": "RCV",
+        "port-mode": "SONET",
+        "montype": [
+          "PRFBERMAX-OTU"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "05-26"
+        ],
+        "montm": [
+          "14-33"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "-45.00",
+        "vldty": "ADJ",
+        "locn": "NEND",
+        "dirn": "RCV",
+        "port-mode": "SONET",
+        "montype": [
+          "OPRMIN-OCH"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "05-26"
+        ],
+        "montm": [
+          "14-33"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "-6.80",
+        "vldty": "ADJ",
+        "locn": "NEND",
+        "dirn": "RCV",
+        "port-mode": "SONET",
+        "montype": [
+          "OPRMAX-OCH"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "05-26"
+        ],
+        "montm": [
+          "14-33"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "-40.05",
+        "vldty": "ADJ",
+        "locn": "NEND",
+        "dirn": "RCV",
+        "port-mode": "SONET",
+        "montype": [
+          "OPRAVG-OCH"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "05-26"
+        ],
+        "montm": [
+          "14-33"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "14.14",
+        "vldty": "ADJ",
+        "locn": "NEND",
+        "dirn": "RCV",
+        "port-mode": "SONET",
+        "montype": [
+          "QMIN-OTU"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "05-26"
+        ],
+        "montm": [
+          "14-33"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "18.00",
+        "vldty": "ADJ",
+        "locn": "NEND",
+        "dirn": "RCV",
+        "port-mode": "SONET",
+        "montype": [
+          "QMAX-OTU"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "05-26"
+        ],
+        "montm": [
+          "14-33"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "15.76",
+        "vldty": "ADJ",
+        "locn": "NEND",
+        "dirn": "RCV",
+        "port-mode": "SONET",
+        "montype": [
+          "QAVG-OTU"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "05-26"
+        ],
+        "montm": [
+          "14-33"
+        ],
+        "index": [
+          "0"
+        ]
+      },
+      {
+        "otmaid": "OTM4-1-11-1",
+        "aidtype": "OTM",
+        "monval": "1.274",
+        "vldty": "ADJ",
+        "locn": "NEND",
+        "dirn": "RCV",
+        "port-mode": "SONET",
+        "montype": [
+          "QSTDEV-OTU"
+        ],
+        "tmper": [
+          "1-UNT"
+        ],
+        "mondat": [
+          "05-26"
+        ],
+        "montm": [
+          "14-33"
+        ],
+        "index": [
+          "0"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><SMProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Documents%20and%20Settings/dzachari/My%20Documents/Code/XMLSig/SMProfile-schema.xsd">
+   <BannerAcknowledge banner="true"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>NDPBxi6FhfBMerfbHZ6EUJOdyLI=</DigestValue></Reference></SignedInfo><SignatureValue>Fqk5zLQPwbqU1xlgXCPb9+d2dsIlKwgE/Pl1yvV8v/6q7ALeMwHQ+g==</SignatureValue><KeyInfo><KeyValue><DSAKeyValue><P>/KaCzo4Syrom78z3EQ5SbbB4sF7ey80etKII864WF64B81uRpH5t9jQTxeEu0ImbzRMqzVDZkVG9
+xD7nN1kuFw==</P><Q>li7dzDacuo67Jg7mtqEm2TRuOMU=</Q><G>Z4Rxsnqc9E7pGknFFH2xqaryRPBaQ01khpMdLRQnG541Awtx/XPaF5Bpsy4pNWMOHCBiNU0Nogps
+QW5QvnlMpA==</G><Y>O60vDFt2r4WyYCBEEPAkgtkSjhqYPrapKimYijqHZLTxjIzJoYz4PasWHEHCOfi6kKG2YhHApYfA
+8Iqrptqn/Q==</Y></DSAKeyValue></KeyValue></KeyInfo></Signature></SMProfile>

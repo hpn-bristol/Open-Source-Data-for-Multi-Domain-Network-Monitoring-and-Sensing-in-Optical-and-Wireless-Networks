@@ -1,0 +1,10 @@
+DUPLICATE KEY ERROR: Bundle: packaging.ome.display
+ key: product.CPL value of DUPLICATE:<Common Photonic Layer>
+ key: product.CPL value of ORIGINAL :<Common Photonic Layer (CPL)>
+DUPLICATE KEY ERROR: Bundle: packaging.ome.display
+ key: gateway.Mcp value of DUPLICATE:<MCP >
+ key: gateway.Mcp value of ORIGINAL :<MCP>
+DUPLICATE KEY ERROR: Bundle: packaging.ome.support
+ key: gateway.Mcp value of DUPLICATE:<com.nortel.optical.viking.McpGateway>
+ key: gateway.Mcp value of ORIGINAL :<com.nortel.optical.cpl.McpCPLGateway>
+Redirecting system error System

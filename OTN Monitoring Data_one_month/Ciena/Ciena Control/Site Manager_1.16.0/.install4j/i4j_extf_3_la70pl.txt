@@ -1,0 +1,5 @@
+6500 Site Manager Software Installation Requirements
+
+Warning: The installer checks for illegal characters such as (<,>,/,?,*,:,|) and displays error messages when specifying the file name or path. It is the responsibility of the users to specify proper file name and path.
+
+Make sure the computer on which you are installing Site Manager meets the minimum requirements stated in the planning guide.

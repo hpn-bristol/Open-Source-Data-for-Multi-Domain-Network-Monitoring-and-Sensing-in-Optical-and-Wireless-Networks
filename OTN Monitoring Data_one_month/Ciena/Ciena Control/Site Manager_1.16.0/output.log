@@ -1,0 +1,177 @@
+2024-11-14 13:04:41,975 main DEBUG Apache Log4j Core 2.17.1 initializing configuration XmlConfiguration[location=C:\Users\po19996\OneDrive - University of Bristol\Desktop\JLT_LSTM\data\Ciena\Ciena Control\Site Manager_1.16.0\log4j2.xml]
+2024-11-14 13:04:41,991 main DEBUG Installed 1 script engine
+2024-11-14 13:04:42,196 main DEBUG Oracle Nashorn version: 1.8.0_282-b08, language: ECMAScript, threading: Not Thread Safe, compile: true, names: [nashorn, Nashorn, js, JS, JavaScript, javascript, ECMAScript, ecmascript], factory class: jdk.nashorn.api.scripting.NashornScriptEngineFactory
+2024-11-14 13:04:42,196 main DEBUG PluginManager 'Core' found 127 plugins
+2024-11-14 13:04:42,196 main DEBUG PluginManager 'Level' found 0 plugins
+2024-11-14 13:04:42,211 main DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2024-11-14 13:04:42,211 main TRACE TypeConverterRegistry initializing.
+2024-11-14 13:04:42,211 main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2024-11-14 13:04:42,227 main DEBUG createProperty(name="filename", value="sm_logs")
+2024-11-14 13:04:42,227 main DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2024-11-14 13:04:42,227 main DEBUG createProperty(name="tracefile", value="sm_trace")
+2024-11-14 13:04:42,227 main DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2024-11-14 13:04:42,227 main DEBUG createProperty(name="logbase", value="C:\Users\po19996")
+2024-11-14 13:04:42,227 main DEBUG Building Plugin[name=properties, class=org.apache.logging.log4j.core.config.PropertiesPlugin].
+2024-11-14 13:04:42,227 main DEBUG configureSubstitutor(={filename=sm_logs, tracefile=sm_trace, logbase=C:\Users\po19996}, Configuration(C:\Users\po19996\OneDrive - University of Bristol\Desktop\JLT_LSTM\data\Ciena\Ciena Control\Site Manager_1.16.0\log4j2.xml))
+2024-11-14 13:04:42,227 main DEBUG PluginManager 'Lookup' found 16 plugins
+2024-11-14 13:04:42,227 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2024-11-14 13:04:42,242 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(C:\Users\po19996\OneDrive - University of Bristol\Desktop\JLT_LSTM\data\Ciena\Ciena Control\Site Manager_1.16.0\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2024-11-14 13:04:42,242 main DEBUG PluginManager 'Converter' found 45 plugins
+2024-11-14 13:04:42,242 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2024-11-14 13:04:42,242 main DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="true", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="CONSOLE", Configuration(C:\Users\po19996\OneDrive - University of Bristol\Desktop\JLT_LSTM\data\Ciena\Ciena Control\Site Manager_1.16.0\log4j2.xml), Filter=null, ={})
+2024-11-14 13:04:42,242 main DEBUG Starting OutputStreamManager SYSTEM_OUT.true.false
+2024-11-14 13:04:42,242 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2024-11-14 13:04:42,242 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(C:\Users\po19996\OneDrive - University of Bristol\Desktop\JLT_LSTM\data\Ciena\Ciena Control\Site Manager_1.16.0\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2024-11-14 13:04:42,242 main DEBUG Building Plugin[name=OnStartupTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.OnStartupTriggeringPolicy].
+2024-11-14 13:04:42,242 main DEBUG createPolicy(minSize="1")
+2024-11-14 13:04:42,256 main DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
+2024-11-14 13:04:42,256 main DEBUG createPolicy(size="10 MB")
+2024-11-14 13:04:42,258 main DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy].
+2024-11-14 13:04:42,258 main DEBUG createPolicy(={OnStartupTriggeringPolicy, SizeBasedTriggeringPolicy(size=10485760)})
+2024-11-14 13:04:42,258 main DEBUG Building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy].
+2024-11-14 13:04:42,258 main DEBUG DefaultRolloverStrategy$Builder(max="100", min="null", fileIndex="null", compressionLevel="null", ={}, stopCustomActionsOnError="null", tempCompressedFilePattern="null", Configuration(C:\Users\po19996\OneDrive - University of Bristol\Desktop\JLT_LSTM\data\Ciena\Ciena Control\Site Manager_1.16.0\log4j2.xml))
+2024-11-14 13:04:42,258 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
+2024-11-14 13:04:42,258 main DEBUG RollingFileAppender$Builder(fileName="C:\Users\po19996/.ciena_desktop/sitemanager/LOGS/sm_logs_26060.log", filePattern="${sys:user.home}/.ciena_desktop/sitemanager/LOGS/${filename}_26060.%d{yyyy-MM-dd}-%i.log", append="true", locking="null", Policies(CompositeTriggeringPolicy(policies=[OnStartupTriggeringPolicy, SizeBasedTriggeringPolicy(size=10485760)])), DefaultRolloverStrategy(DefaultRolloverStrategy(min=1, max=100, useMax=true)), advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="true", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="File", Configuration(C:\Users\po19996\OneDrive - University of Bristol\Desktop\JLT_LSTM\data\Ciena\Ciena Control\Site Manager_1.16.0\log4j2.xml), Filter=null, ={})
+2024-11-14 13:04:42,258 main TRACE New file 'C:\Users\po19996/.ciena_desktop/sitemanager/LOGS/sm_logs_26060.log' created = true
+2024-11-14 13:04:42,284 main DEBUG Returning file creation time for C:\Users\po19996\.ciena_desktop\sitemanager\LOGS\sm_logs_26060.log
+2024-11-14 13:04:42,284 main DEBUG Starting RollingFileManager C:\Users\po19996/.ciena_desktop/sitemanager/LOGS/sm_logs_26060.log
+2024-11-14 13:04:42,290 main DEBUG PluginManager 'FileConverter' found 2 plugins
+2024-11-14 13:04:42,290 main DEBUG Setting prev file time to 2024-11-14T13:04:42.258+0000
+2024-11-14 13:04:42,290 main DEBUG Initializing triggering policy CompositeTriggeringPolicy(policies=[OnStartupTriggeringPolicy, SizeBasedTriggeringPolicy(size=10485760)])
+2024-11-14 13:04:42,290 main DEBUG Initializing triggering policy OnStartupTriggeringPolicy
+2024-11-14 13:04:42,290 main DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=10485760)
+2024-11-14 13:04:42,290 main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2024-11-14 13:04:42,290 main DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(C:\Users\po19996\OneDrive - University of Bristol\Desktop\JLT_LSTM\data\Ciena\Ciena Control\Site Manager_1.16.0\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2024-11-14 13:04:42,290 main DEBUG Building Plugin[name=OnStartupTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.OnStartupTriggeringPolicy].
+2024-11-14 13:04:42,290 main DEBUG createPolicy(minSize="1")
+2024-11-14 13:04:42,290 main DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
+2024-11-14 13:04:42,290 main DEBUG createPolicy(size="10 MB")
+2024-11-14 13:04:42,290 main DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy].
+2024-11-14 13:04:42,290 main DEBUG createPolicy(={OnStartupTriggeringPolicy, SizeBasedTriggeringPolicy(size=10485760)})
+2024-11-14 13:04:42,290 main DEBUG Building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy].
+2024-11-14 13:04:42,305 main DEBUG DefaultRolloverStrategy$Builder(max="100", min="null", fileIndex="null", compressionLevel="null", ={}, stopCustomActionsOnError="null", tempCompressedFilePattern="null", Configuration(C:\Users\po19996\OneDrive - University of Bristol\Desktop\JLT_LSTM\data\Ciena\Ciena Control\Site Manager_1.16.0\log4j2.xml))
+2024-11-14 13:04:42,305 main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
+2024-11-14 13:04:42,305 main DEBUG RollingFileAppender$Builder(fileName="C:\Users\po19996/.ciena_desktop/sitemanager/LOGS/sm_trace_26060.log", filePattern="${sys:user.home}/.ciena_desktop/sitemanager/LOGS/${tracefile}_26060.%d{yyyy-MM-dd}-%i.log", append="true", locking="null", Policies(CompositeTriggeringPolicy(policies=[OnStartupTriggeringPolicy, SizeBasedTriggeringPolicy(size=10485760)])), DefaultRolloverStrategy(DefaultRolloverStrategy(min=1, max=100, useMax=true)), advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="false", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="TraceFile", Configuration(C:\Users\po19996\OneDrive - University of Bristol\Desktop\JLT_LSTM\data\Ciena\Ciena Control\Site Manager_1.16.0\log4j2.xml), Filter=null, ={})
+2024-11-14 13:04:42,305 main TRACE New file 'C:\Users\po19996/.ciena_desktop/sitemanager/LOGS/sm_trace_26060.log' created = true
+2024-11-14 13:04:42,305 main DEBUG Returning file creation time for C:\Users\po19996\.ciena_desktop\sitemanager\LOGS\sm_trace_26060.log
+2024-11-14 13:04:42,305 main DEBUG Starting RollingFileManager C:\Users\po19996/.ciena_desktop/sitemanager/LOGS/sm_trace_26060.log
+2024-11-14 13:04:42,305 main DEBUG PluginManager 'FileConverter' found 2 plugins
+2024-11-14 13:04:42,305 main DEBUG Setting prev file time to 2024-11-14T13:04:42.305+0000
+2024-11-14 13:04:42,305 main DEBUG Initializing triggering policy CompositeTriggeringPolicy(policies=[OnStartupTriggeringPolicy, SizeBasedTriggeringPolicy(size=10485760)])
+2024-11-14 13:04:42,305 main DEBUG Initializing triggering policy OnStartupTriggeringPolicy
+2024-11-14 13:04:42,305 main DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=10485760)
+2024-11-14 13:04:42,305 main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2024-11-14 13:04:42,305 main DEBUG createAppenders(={CONSOLE, File, TraceFile})
+2024-11-14 13:04:42,305 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.MarkerFilter].
+2024-11-14 13:04:42,305 main DEBUG createFilter(marker="TRACE_MARKER", onMatch="ACCEPT", onMismatch="NEUTRAL")
+2024-11-14 13:04:42,305 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-11-14 13:04:42,305 main DEBUG createAppenderRef(ref="TraceFile", level="null", MarkerFilter(TRACE_MARKER))
+2024-11-14 13:04:42,305 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.MarkerFilter].
+2024-11-14 13:04:42,305 main DEBUG createFilter(marker="TRACE_MARKER", onMatch="DENY", onMismatch="ACCEPT")
+2024-11-14 13:04:42,305 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-11-14 13:04:42,305 main DEBUG createAppenderRef(ref="File", level="null", MarkerFilter(TRACE_MARKER))
+2024-11-14 13:04:42,305 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-11-14 13:04:42,305 main DEBUG createAppenderRef(ref="CONSOLE", level="null", Filter=null)
+2024-11-14 13:04:42,305 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+2024-11-14 13:04:42,305 main DEBUG createLogger(additivity="false", level="TRACE", name="com.nortel", includeLocation="null", ={TraceFile, File, CONSOLE}, ={}, Configuration(C:\Users\po19996\OneDrive - University of Bristol\Desktop\JLT_LSTM\data\Ciena\Ciena Control\Site Manager_1.16.0\log4j2.xml), Filter=null)
+2024-11-14 13:04:42,305 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.MarkerFilter].
+2024-11-14 13:04:42,305 main DEBUG createFilter(marker="TRACE_MARKER", onMatch="ACCEPT", onMismatch="NEUTRAL")
+2024-11-14 13:04:42,305 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-11-14 13:04:42,305 main DEBUG createAppenderRef(ref="TraceFile", level="null", MarkerFilter(TRACE_MARKER))
+2024-11-14 13:04:42,305 main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.MarkerFilter].
+2024-11-14 13:04:42,305 main DEBUG createFilter(marker="TRACE_MARKER", onMatch="DENY", onMismatch="ACCEPT")
+2024-11-14 13:04:42,305 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-11-14 13:04:42,305 main DEBUG createAppenderRef(ref="File", level="null", MarkerFilter(TRACE_MARKER))
+2024-11-14 13:04:42,305 main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-11-14 13:04:42,321 main DEBUG createAppenderRef(ref="CONSOLE", level="null", Filter=null)
+2024-11-14 13:04:42,321 main DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+2024-11-14 13:04:42,321 main DEBUG createLogger(additivity="false", level="TRACE", name="com.ciena", includeLocation="null", ={TraceFile, File, CONSOLE}, ={}, Configuration(C:\Users\po19996\OneDrive - University of Bristol\Desktop\JLT_LSTM\data\Ciena\Ciena Control\Site Manager_1.16.0\log4j2.xml), Filter=null)
+2024-11-14 13:04:42,321 main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2024-11-14 13:04:42,321 main DEBUG createLoggers(={com.nortel, com.ciena})
+2024-11-14 13:04:42,321 main WARN No Root logger was configured, creating default ERROR-level Root logger with Console appender
+2024-11-14 13:04:42,321 main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false-2
+2024-11-14 13:04:42,321 main DEBUG Configuration XmlConfiguration[location=C:\Users\po19996\OneDrive - University of Bristol\Desktop\JLT_LSTM\data\Ciena\Ciena Control\Site Manager_1.16.0\log4j2.xml] initialized
+2024-11-14 13:04:42,321 main DEBUG Starting configuration XmlConfiguration[location=C:\Users\po19996\OneDrive - University of Bristol\Desktop\JLT_LSTM\data\Ciena\Ciena Control\Site Manager_1.16.0\log4j2.xml]
+2024-11-14 13:04:42,321 main DEBUG Started configuration XmlConfiguration[location=C:\Users\po19996\OneDrive - University of Bristol\Desktop\JLT_LSTM\data\Ciena\Ciena Control\Site Manager_1.16.0\log4j2.xml] OK.
+2024-11-14 13:04:42,321 main TRACE Stopping org.apache.logging.log4j.core.config.DefaultConfiguration@4909b8da...
+2024-11-14 13:04:42,321 main TRACE DefaultConfiguration notified 1 ReliabilityStrategies that config will be stopped.
+2024-11-14 13:04:42,321 main TRACE DefaultConfiguration stopping root LoggerConfig.
+2024-11-14 13:04:42,321 main TRACE DefaultConfiguration notifying ReliabilityStrategies that appenders will be stopped.
+2024-11-14 13:04:42,321 main TRACE DefaultConfiguration stopping remaining Appenders.
+2024-11-14 13:04:42,321 main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2024-11-14 13:04:42,321 main DEBUG OutputStream closed
+2024-11-14 13:04:42,321 main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2024-11-14 13:04:42,321 main DEBUG Appender DefaultConsole-1 stopped with status true
+2024-11-14 13:04:42,321 main TRACE DefaultConfiguration stopped 1 remaining Appenders.
+2024-11-14 13:04:42,321 main TRACE DefaultConfiguration cleaning Appenders from 1 LoggerConfigs.
+2024-11-14 13:04:42,321 main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@4909b8da OK
+2024-11-14 13:04:42,368 main TRACE Reregistering MBeans after reconfigure. Selector=org.apache.logging.log4j.core.selector.ClassLoaderContextSelector@6c130c45
+2024-11-14 13:04:42,368 main TRACE Reregistering context (1/1): '764c12b6' org.apache.logging.log4j.core.LoggerContext@50ad3bc1
+2024-11-14 13:04:42,368 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=764c12b6'
+2024-11-14 13:04:42,368 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=764c12b6,component=StatusLogger'
+2024-11-14 13:04:42,368 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=764c12b6,component=ContextSelector'
+2024-11-14 13:04:42,368 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=764c12b6,component=Loggers,name=*'
+2024-11-14 13:04:42,368 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=764c12b6,component=Appenders,name=*'
+2024-11-14 13:04:42,368 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=764c12b6,component=AsyncAppenders,name=*'
+2024-11-14 13:04:42,368 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=764c12b6,component=AsyncLoggerRingBuffer'
+2024-11-14 13:04:42,368 main TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=764c12b6,component=Loggers,name=*,subtype=RingBuffer'
+2024-11-14 13:04:42,384 main DEBUG Registering MBean org.apache.logging.log4j2:type=764c12b6
+2024-11-14 13:04:42,384 main DEBUG Registering MBean org.apache.logging.log4j2:type=764c12b6,component=StatusLogger
+2024-11-14 13:04:42,384 main DEBUG Registering MBean org.apache.logging.log4j2:type=764c12b6,component=ContextSelector
+2024-11-14 13:04:42,384 main DEBUG Registering MBean org.apache.logging.log4j2:type=764c12b6,component=Loggers,name=com.ciena
+2024-11-14 13:04:42,384 main DEBUG Registering MBean org.apache.logging.log4j2:type=764c12b6,component=Loggers,name=com.nortel
+2024-11-14 13:04:42,384 main DEBUG Registering MBean org.apache.logging.log4j2:type=764c12b6,component=Appenders,name=DefaultConsole-2
+2024-11-14 13:04:42,384 main DEBUG Registering MBean org.apache.logging.log4j2:type=764c12b6,component=Appenders,name=CONSOLE
+2024-11-14 13:04:42,384 main DEBUG Registering MBean org.apache.logging.log4j2:type=764c12b6,component=Appenders,name=File
+2024-11-14 13:04:42,384 main DEBUG Registering MBean org.apache.logging.log4j2:type=764c12b6,component=Appenders,name=TraceFile
+2024-11-14 13:04:42,384 main TRACE Using default SystemClock for timestamps.
+2024-11-14 13:04:42,384 main DEBUG org.apache.logging.log4j.core.util.SystemClock does not support precise timestamps.
+2024-11-14 13:04:42,384 main TRACE Using DummyNanoClock for nanosecond timestamps.
+2024-11-14 13:04:42,384 main DEBUG Reconfiguration complete for context[name=764c12b6] at URI C:\Users\po19996\OneDrive - University of Bristol\Desktop\JLT_LSTM\data\Ciena\Ciena Control\Site Manager_1.16.0\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@50ad3bc1) with optional ClassLoader: null
+2024-11-14 13:04:42,384 main DEBUG Shutdown hook enabled. Registering a new one.
+2024-11-14 13:04:42,384 main DEBUG LoggerContext[name=764c12b6, org.apache.logging.log4j.core.LoggerContext@50ad3bc1] started OK.
+13:04:42.913 [main] INFO  com.nortel.tnui.SiteManager - Starting Site Manager with params []
+Removed old log file 2024Feb12_160522.activitylog
+Redirecting system SysOut System
+2024-11-14 14:16:47,762 pool-1-thread-1 DEBUG Stopping LoggerContext[name=764c12b6, org.apache.logging.log4j.core.LoggerContext@50ad3bc1]
+2024-11-14 14:16:47,763 pool-1-thread-1 DEBUG Stopping LoggerContext[name=764c12b6, org.apache.logging.log4j.core.LoggerContext@50ad3bc1]...
+2024-11-14 14:16:47,763 pool-1-thread-1 TRACE Unregistering 1 MBeans: [org.apache.logging.log4j2:type=764c12b6]
+2024-11-14 14:16:47,764 pool-1-thread-1 TRACE Unregistering 1 MBeans: [org.apache.logging.log4j2:type=764c12b6,component=StatusLogger]
+2024-11-14 14:16:47,764 pool-1-thread-1 TRACE Unregistering 1 MBeans: [org.apache.logging.log4j2:type=764c12b6,component=ContextSelector]
+2024-11-14 14:16:47,764 pool-1-thread-1 TRACE Unregistering 2 MBeans: [org.apache.logging.log4j2:type=764c12b6,component=Loggers,name=com.nortel, org.apache.logging.log4j2:type=764c12b6,component=Loggers,name=com.ciena]
+2024-11-14 14:16:47,765 pool-1-thread-1 TRACE Unregistering 4 MBeans: [org.apache.logging.log4j2:type=764c12b6,component=Appenders,name=File, org.apache.logging.log4j2:type=764c12b6,component=Appenders,name=DefaultConsole-2, org.apache.logging.log4j2:type=764c12b6,component=Appenders,name=CONSOLE, org.apache.logging.log4j2:type=764c12b6,component=Appenders,name=TraceFile]
+2024-11-14 14:16:47,765 pool-1-thread-1 TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=764c12b6,component=AsyncAppenders,name=*'
+2024-11-14 14:16:47,765 pool-1-thread-1 TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=764c12b6,component=AsyncLoggerRingBuffer'
+2024-11-14 14:16:47,765 pool-1-thread-1 TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=764c12b6,component=Loggers,name=*,subtype=RingBuffer'
+2024-11-14 14:16:47,767 pool-1-thread-1 TRACE Stopping XmlConfiguration[location=C:\Users\po19996\OneDrive - University of Bristol\Desktop\JLT_LSTM\data\Ciena\Ciena Control\Site Manager_1.16.0\log4j2.xml]...
+2024-11-14 14:16:47,767 pool-1-thread-1 TRACE XmlConfiguration notified 3 ReliabilityStrategies that config will be stopped.
+2024-11-14 14:16:47,767 pool-1-thread-1 TRACE XmlConfiguration stopping 2 LoggerConfigs.
+2024-11-14 14:16:47,767 pool-1-thread-1 TRACE XmlConfiguration stopping root LoggerConfig.
+2024-11-14 14:16:47,767 pool-1-thread-1 TRACE XmlConfiguration notifying ReliabilityStrategies that appenders will be stopped.
+2024-11-14 14:16:47,767 pool-1-thread-1 TRACE XmlConfiguration stopping remaining Appenders.
+2024-11-14 14:16:47,767 pool-1-thread-1 DEBUG Shutting down RollingFileManager C:\Users\po19996/.ciena_desktop/sitemanager/LOGS/sm_trace_26060.log
+2024-11-14 14:16:47,767 pool-1-thread-1 DEBUG Shutting down RollingFileManager C:\Users\po19996/.ciena_desktop/sitemanager/LOGS/sm_trace_26060.log
+2024-11-14 14:16:47,767 pool-1-thread-1 DEBUG OutputStream closed
+2024-11-14 14:16:47,767 pool-1-thread-1 DEBUG All asynchronous threads have terminated
+2024-11-14 14:16:47,767 pool-1-thread-1 DEBUG RollingFileManager shutdown completed with status true
+2024-11-14 14:16:47,767 pool-1-thread-1 DEBUG Shut down RollingFileManager C:\Users\po19996/.ciena_desktop/sitemanager/LOGS/sm_trace_26060.log, all resources released: true
+2024-11-14 14:16:47,767 pool-1-thread-1 DEBUG Appender TraceFile stopped with status true
+2024-11-14 14:16:47,767 pool-1-thread-1 DEBUG Shutting down RollingFileManager C:\Users\po19996/.ciena_desktop/sitemanager/LOGS/sm_logs_26060.log
+2024-11-14 14:16:47,767 pool-1-thread-1 DEBUG Shutting down RollingFileManager C:\Users\po19996/.ciena_desktop/sitemanager/LOGS/sm_logs_26060.log
+2024-11-14 14:16:47,767 pool-1-thread-1 DEBUG OutputStream closed
+2024-11-14 14:16:47,767 pool-1-thread-1 DEBUG All asynchronous threads have terminated
+2024-11-14 14:16:47,767 pool-1-thread-1 DEBUG RollingFileManager shutdown completed with status true
+2024-11-14 14:16:47,767 pool-1-thread-1 DEBUG Shut down RollingFileManager C:\Users\po19996/.ciena_desktop/sitemanager/LOGS/sm_logs_26060.log, all resources released: true
+2024-11-14 14:16:47,767 pool-1-thread-1 DEBUG Appender File stopped with status true
+2024-11-14 14:16:47,771 pool-1-thread-1 DEBUG Shutting down OutputStreamManager SYSTEM_OUT.true.false
+2024-11-14 14:16:47,771 pool-1-thread-1 DEBUG OutputStream closed
+2024-11-14 14:16:47,771 pool-1-thread-1 DEBUG Shut down OutputStreamManager SYSTEM_OUT.true.false, all resources released: true
+2024-11-14 14:16:47,771 pool-1-thread-1 DEBUG Appender CONSOLE stopped with status true
+2024-11-14 14:16:47,771 pool-1-thread-1 DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-2
+2024-11-14 14:16:47,771 pool-1-thread-1 DEBUG OutputStream closed
+2024-11-14 14:16:47,771 pool-1-thread-1 DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-2, all resources released: true
+2024-11-14 14:16:47,771 pool-1-thread-1 DEBUG Appender DefaultConsole-2 stopped with status true
+2024-11-14 14:16:47,771 pool-1-thread-1 TRACE XmlConfiguration stopped 4 remaining Appenders.
+2024-11-14 14:16:47,771 pool-1-thread-1 TRACE XmlConfiguration cleaning Appenders from 3 LoggerConfigs.
+2024-11-14 14:16:47,771 pool-1-thread-1 DEBUG Stopped XmlConfiguration[location=C:\Users\po19996\OneDrive - University of Bristol\Desktop\JLT_LSTM\data\Ciena\Ciena Control\Site Manager_1.16.0\log4j2.xml] OK
+2024-11-14 14:16:47,771 pool-1-thread-1 DEBUG Stopped LoggerContext[name=764c12b6, org.apache.logging.log4j.core.LoggerContext@50ad3bc1] with status true

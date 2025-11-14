@@ -1,0 +1,950 @@
+[INFO] logger started at Wed May 18 08:53:42 BST 2022
+[INFO] executable name: C:\Users\srideout\OneDrive - Ciena Corporation\Desktop\SiteManager_windows-x64_1.16.0.exe
+[INFO] install4j version: 7.0.9 (build 7273)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=OpenJDK Runtime Environment
+exe4j.moduleName=C:\Users\srideout\OneDrive - Ciena Co...
+sun.boot.library.path=c:\users\srideout\appdata\local\temp\...
+exe4j.semaphoreName=Local\c:_users_srideout_onedrive_-_ci...
+java.vm.version=25.282-b08
+jdk.vendor.version=Zulu 8.52.0.23-CA-win64
+java.vm.vendor=Azul Systems, Inc.
+java.vendor.url=http://www.azulsystems.com/
+path.separator=;
+exe4j.consoleCodepage=cp0
+java.vm.name=OpenJDK 64-Bit Server VM
+file.encoding.pkg=sun.io
+user.script=
+user.country=GB
+sun.os.patch.level=
+install4j.exeDir=C:\Users\srideout\OneDrive - Ciena Co...
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=C:\Users\srideout\AppData\Local\Temp\...
+java.runtime.version=1.8.0_282-b08
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs=c:\users\srideout\appdata\local\temp\...
+os.arch=amd64
+java.io.tmpdir=C:\Users\srideout\AppData\Local\Temp\
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+user.variant=
+exe4j.tempDir=C:\Users\srideout\AppData\Local\Temp\...
+os.name=Windows 10
+sun.java2d.noddraw=true
+sun.jnu.encoding=Cp1252
+java.library.path=C:\Users\srideout\AppData\Local\Temp\...
+sun.awt.enableExtraMouseButtons=true
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+exe4j.isInstall4j=true
+os.version=10.0
+user.home=C:\Users\srideout
+user.timezone=Europe/London
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.specification.version=1.8
+file.encoding=Cp1252
+user.name=srideout
+java.class.path=C:\Users\srideout\AppData\Local\Temp\...
+java.vm.specification.version=1.8
+sun.arch.data.model=64
+java.home=c:\users\srideout\appdata\local\temp\...
+sun.java.command=C:\Users\srideout\OneDrive - Ciena Co...
+exe4j.launchName=C:\Users\srideout\OneDrive - Ciena Co...
+java.specification.vendor=Oracle Corporation
+user.language=en
+awt.toolkit=sun.awt.windows.WToolkit
+java.vm.info=mixed mode
+exe4j.unextractedPosition=50493511
+java.version=1.8.0_282
+java.ext.dirs=c:\users\srideout\appdata\local\temp\...
+sun.boot.class.path=c:\users\srideout\appdata\local\temp\...
+java.vendor=Azul Systems, Inc.
+install4j.appDir=C:\Users\srideout\AppData\Local\Temp\
+file.separator=\
+java.vendor.url.bug=http://www.azulsystems.com/support/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+sun.desktop=windows
+sun.cpu.isalist=amd64
+[INFO] Variable changed: sys.resolveUserSpecificInstallationDir=false[class java.lang.String]
+[INFO] my modules file null, null
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 13]: Execute action
+       Property allRequested: false
+       Property failIfNotObtainedMac: true
+       Property failIfNotObtainedWin: false
+       Property failIfNotRootUnix: false
+       Property obtainIfAdminMac: false
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalMac: false
+       Property obtainIfNormalWin: false
+       Property rollbackSupported: false
+       Property updateInstallationDirectory: true
+       Using communication backend com.install4j.runtime.installer.platform.win32.Win32CommunicationBackend
+       Variable changed: sys.adminRights=true[class java.lang.Boolean]
+       Execute action successful after 19681 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 956]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_1
+       Property rollbackSupported: false
+       Getting the Extended Properties info:{Base_internalLabel=sm_base_rel21.1_20220401_0048, CheckDirectory_statusMessage=Checking folder, NewerVersionsPanel_textEnd=Please click the 'Cancel' button to abort if a newer version must be un-installed prior to installing version $Product_externalLabel$., Product_supersededVersions=, Base_release=1, Product_internalLabel=SM_OME_CPL_rel1.16.0_20220401_0048, CompatibleVersionsPanel_textStart=One or more versions of the product have been detected on the local machine. Please select one of the following options:
+, Release_Support_name_Mac=, SupersededVersionsPanel_title=Forced Upgrade, Confirmation_yes=Yes, PreUninstall_filesToKeep=FilesToKeep, UninstallDirRemoveIfEmpty_statusMessage=Removing a directory, Product_relDesc=(release 1.16.0, version ab52), Cleanup_filesToDelete=CleanupFilesAtUninstall, PreInstall_statusMessage=Executing pre-install upgrade actions, BaseVersionIncompatiblePanel_textEnd=, CheckRunningApps_message=One or more running PMEM Craft Access Terminal applications were found. Please exit all other PMEM Craft Access Terminal applications before continuing., Cleanup_statusMessage=Cleaning up files, Base_subRelease=21, InstallFileRemove_statusMessage=Removing a file/directory, ConfirmEmptyDir_message=The folder is not empty. Proceed with installation?, Cleanup_baseFilesToDelete=com/nortel/tnui/consolidatedinstaller/install/config/CleanupBaseFilesAtUninstall.properties, ConfirmUninstall_title=Confirm Upgrade, Product_compatibleVersions=, Cleanup_HDXFilesToDelete=com/nortel/tnui/consolidatedinstaller/install/config/CleanupHDXFilesAtUninstall.properties, PostInstall_script=PostInstall.bat, SameVersionPanel_textStart=The $Product_name_general$ is already installed in the selected location. Uninstall the current version of Site Manager, then run this installer again.
+
+Click 'Cancel' to exit the installer., Base_shortName=Site Manager, PostInstall_statusMessage=Executing post-install upgrade actions, Product_cplRecentLoad=cpl11600ab52, PostUninstall_statusMessage=Executing post-uninstall upgrade actions, CompatibleVersionsPanel_title=Select Upgrade, ConfirmUninstall_message=Version $Product_oldExternalLabel$ of $Product_name$
+is about to be upgraded to version $Product_externalLabel$.
+
+Do you wish to continue?, Product_name=6500 Site Manager, Product_dirLabel=Replaced at build time, IncompatibleVersionsPanel_textStart=Following incompatible versions of the product have been detected on the local machine:, CheckRunningApps_statusMessage=Checking for running applications, CheckForRecovery_statusMessage=Checking for recovery, BaseVersionIncompatiblePanel_title=Incompatible Craft Version, SupersededVersionsPanel_textEnd=
+Click 'Cancel' to exit the installer if you do not wish to proceed with the upgrade to version $Product_externalLabel$. Click 'Next' to continue., Wait_statusMessage=Waiting, ConfirmRecovery_message=A previously interrupted installation has been detected.
+Old version: $Recovery_oldVersion$
+New version: $Recovery_currentVersion$
+Installation directory: $Recovery_currentInstallDir$
+Shortcuts folder: $Recovery_currentShortcutsDir$
+
+Do you wish to continue the previous installation?, UninstallRemoveRegistryEntry_statusMessage=Removing a Windows registry entry, CompatibleVersionsPanel_upgradeLabel=Upgrade from version $Product_oldExternalLabel$ to version $Product_externalLabel$., Craft_type=OME, NewerVersionsPanel_textStart=Following newer versions of the product have been detected on the local machine:, ConfirmEmptyDir_label=, RegisterApp_statusMessageUninstall=Un-registering application, CompatibleVersionsPanel_textEnd=, ConfirmEmptyDir_title=Folder Check, PreUninstall_statusMessage=Executing pre-uninstall upgrade actions, BaseVersionIncompatiblePanel_text=, IncompatibleVersionsPanel_title=Incompatible Versions, PreUninstall_script=PreUninstall.bat, Confirmation_no=No, Base_externalLabel=sm_base_rel21.1_20220401_0048, PreUninstall_filesToDelete=FilesToDelete, UninstallOldVersion_statusMessage=Un-installing version $Product_oldExternalLabel$, RestoreState_statusMessageUninstall=Restoring the installer's state, UninstallFileRemove_statusMessage=Removing a file/directory, Product_recentLoad=ome11600ab52, CheckRunningApps_messageTitle=Running Applications Found, Product_externalLabel=SM_OME_CPL_rel1.16.0_20220401_0048, ConfirmRecovery_title=Confirm Recovery, SameVersionPanel_text=, IncompatibleVersionsPanel_textEnd=Please click the 'Cancel' button to abort if an incompatible version must be un-installed prior to installing version $Product_externalLabel$., RegisterApp_statusMessageInstall=Registering application, SameVersionPanel_textEnd=, SameVersionPanel_title=Existing Version Found, GetResourceString_statusMessage=Retrieving a resource string, Release_Support_name=15.00, 14.10, 14.00, 13.30, 13.25, 13.2, 13.06, 13.01, 13.00, 12.85, 12.80, 12.73, 12.72, 12.71, 12.70, 12.66, 12.63, 12.62, 12.61, 12.60, 12.46, 12.45, 12.43, 12.42, 12.41, 12.40, 12.35, 12.34, 12.33, 12.32, 12.31, 12.30, 12.25, 12.21, 12.20, 12.10, 12.03, 12.02, 12.01, 12.00, 11.61, 11.60, 11.23, 11.22, 11.21, 11.20, 11.18, 11.17, 11.16, 11.15, 11.00, 10.20, 10.11, 10.10, 10.05, 10.00, Base_buildLabel=Replaced at build time, SupersededVersionsPanel_textStart=One or more versions of the product have been detected on the local machine that require an upgrade.  Please select a version to upgrade from the list below.
+, BaseVersionIncompatiblePanel_textStart=An incompatible version of the Site Manager is installed in the selected location. 
+
+To maintain two separate versions of Site Manager, click 'Previous' to choose another location for this installation. 
+
+Otherwise, click 'Cancel', uninstall the current version of Site Manager, and then run this installer again. , NewerVersionsPanel_title=Newer Versions, ATT_REL=no, Product_vendor=Nortel Networks, CompatibleVersionsPanel_installLabel=Install version $Product_externalLabel$., Product_shortName=Replaced at build time, et=ic}
+       Variable changed: Base_release=1[class java.lang.String]
+       Variable changed: Base_subRelease=21[class java.lang.String]
+       Variable changed: Base_externalLabel=sm_base_rel21.1_20220401_0048[class java.lang.String]
+       Variable changed: Base_internalLabel=sm_base_rel21.1_20220401_0048[class java.lang.String]
+       Variable changed: Product_internalLabel=SM_OME_CPL_rel1.16.0_20220401_0048[class java.lang.String]
+       Variable changed: Product_externalLabel=SM_OME_CPL_rel1.16.0_20220401_0048[class java.lang.String]
+       Variable changed: Product_recentLoad=ome11600ab52[class java.lang.String]
+       Variable changed: Release_Support_name=15.00, 14.10, 14.00, 13.30, 13.25, 13.2, 13.06, 13.01, 13.00, 12.85, 12.80, 12.73, 12.72, 12.71, 12.70, 12.66, 12.63, 12.62, 12.61, 12.60, 12.46, 12.45, 12.43, 12.42, 12.41, 12.40, 12.35, 12.34, 12.33, 12.32, 12.31, 12.30, 12.25, 12.21, 12.20, 12.10, 12.03, 12.02, 12.01, 12.00, 11.61, 11.60, 11.23, 11.22, 11.21, 11.20, 11.18, 11.17, 11.16, 11.15, 11.00, 10.20, 10.11, 10.10, 10.05, 10.00[class java.lang.String]
+       Variable changed: Release_Support_name_Mac=[class java.lang.String]
+       Variable changed: Product_relDesc=(release 1.16.0, version ab52)[class java.lang.String]
+       Variable changed: Craft_type=OME[class java.lang.String]
+       Variable changed: ATT_REL=no[class java.lang.String]
+       Execute action successful after 50 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen [ID 49]: Show screen
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen [ID 49]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 300]: Show screen
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 300]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: Show screen
+       Variable changed: sys.installationDir=C:\Program Files\Site Manager_1.16.0[class java.lang.String]
+       checking writable with maximum
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 5]: Execute action
+       Property excludedVariables: [sys.installationDir, USER_INSTALL_MODE, SHORTCUT_PATH, USER_INPUT_BANNER_ENABLE, ADD_REMOVE_PROGRAM_ENTRY, BANNER_ENABLE]
+       Property file: null
+       Property overwriteStrategy: Do not overwrite command line
+       Property registerForResponseFile: true
+       Property rollbackSupported: false
+       Response file C:\Program Files\Site Manager_1.16.0\.install4j\response.varfile does not exist
+       Execute action successful after 3 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 1011]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_8
+       Property rollbackSupported: false
+       Execute action successful after 3 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 301]: Show screen
+       Variable changed: BANNER_ENABLE=0[class java.lang.Integer]
+       Setting the variable BANNER_ENABLE, value:0
+       Variable changed: BANNER_ENABLE=1[class java.lang.Integer]
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 301]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: Show screen
+       Variable changed: sys.programGroupName=6500 Site Manager_1.16.0[class java.lang.String]
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+       Variable changed: sys.programGroupAllUsers=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 1322]: Show screen
+       checking writable with maximum
+       Variable changed: SHORTCUT_PATH=C:\Users\srideout\OneDrive - Ciena Corporation\Desktop[class java.lang.String]
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 1322]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Show screen
+[INFO] com.install4j.runtime.beans.actions.UninstallPreviousAction [ID 305]: Execute action
+       Property installationDirectory: null
+       Property installerVariables: {}
+       Property logFiles: []
+       Property onlyIfSameApplicationId: false
+       Property rollbackSupported: false
+       Property uninstallServices: true
+       checking running processes
+       checking running processes ok
+       previous installation id at C:\Program Files\Site Manager_1.16.0: null
+       no previous installation detected, uninstaller was not started
+       finished
+       Execute action successful after 70 ms
+[INFO] com.install4j.runtime.beans.actions.files.DeleteFileAction [ID 1454]: Execute action
+       Property directoryFilter: null
+       Property fileFilter: null
+       Property files: [C:\Program Files\Site Manager_1.16.0\JRE, C:\Program Files\Site Manager_1.16.0\UninstallerData, C:\Program Files\Site Manager_1.16.0\6500_and_CPL_Site_Manager_InstallLog.log, C:\Program Files\Site Manager_1.16.0\SiteManager.properties]
+       Property filesRoot: null
+       Property backupForRollback: true
+       Property recursive: true
+       Property rollbackSupported: true
+       Property showFileNames: true
+       Property showProgress: false
+       The file "C:\Program Files\Site Manager_1.16.0\JRE" does not exist
+       The file "C:\Program Files\Site Manager_1.16.0\UninstallerData" does not exist
+       The file "C:\Program Files\Site Manager_1.16.0\6500_and_CPL_Site_Manager_InstallLog.log" does not exist
+       The file "C:\Program Files\Site Manager_1.16.0\SiteManager.properties" does not exist
+       Execute action successful after 23 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 1839]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_20
+       Property rollbackSupported: false
+       This is not ATT customization, so setting ATT_File set disable for instalaltion test
+       ATT FileSet Excluded
+       Execute action successful after 2 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 306]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_21
+       Property rollbackSupported: false
+       Execute action successful after 2 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 1558]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_25
+       Property rollbackSupported: false
+       Installation mode is STANDALONE so setting 1C_INTEGRATED fileset to disable for instalaltion
+       Execute action successful after 2 ms
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 9]: Execute action
+       Property directoryResolverScript: null
+       Property fileFilterScript: null
+       Property sizeCalculatorScript: null
+       Property checkFreeSpace: true
+       Property delay: false
+       Property installRuntime: true
+       Property rollbackSupported: true
+       Property saveDownloadedFiles: false
+       Property showFileNames: true
+       Property triggerReboot: true
+       Property updateBundledJre: true
+       Property validateApplicationId: false
+       Component Main[67]; Selected: true
+       Component Windows Launcher 64 bit[3254]; Selected: true
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\ASSEMBLY_EXCEPTION; size: 1522 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:33 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-console-l1-1-0.dll; size: 19136 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-datetime-l1-1-0.dll; size: 18112 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-debug-l1-1-0.dll; size: 18112 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-errorhandling-l1-1-0.dll; size: 18624 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-file-l1-1-0.dll; size: 22208 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-file-l1-2-0.dll; size: 18624 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-file-l2-1-0.dll; size: 18624 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-handle-l1-1-0.dll; size: 18624 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-heap-l1-1-0.dll; size: 18624 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-interlocked-l1-1-0.dll; size: 18624 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-libraryloader-l1-1-0.dll; size: 19136 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-localization-l1-2-0.dll; size: 21184 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-memory-l1-1-0.dll; size: 19136 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-namedpipe-l1-1-0.dll; size: 18624 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-processenvironment-l1-1-0.dll; size: 19648 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-processthreads-l1-1-0.dll; size: 20672 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-processthreads-l1-1-1.dll; size: 19136 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-profile-l1-1-0.dll; size: 18120 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-rtlsupport-l1-1-0.dll; size: 18624 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-string-l1-1-0.dll; size: 18624 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-synch-l1-1-0.dll; size: 20672 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-synch-l1-2-0.dll; size: 19136 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-sysinfo-l1-1-0.dll; size: 19656 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-timezone-l1-1-0.dll; size: 18624 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-core-util-l1-1-0.dll; size: 18624 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-crt-conio-l1-1-0.dll; size: 19648 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-crt-convert-l1-1-0.dll; size: 22720 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-crt-environment-l1-1-0.dll; size: 19136 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-crt-filesystem-l1-1-0.dll; size: 20672 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-crt-heap-l1-1-0.dll; size: 19136 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-crt-locale-l1-1-0.dll; size: 19136 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-crt-math-l1-1-0.dll; size: 27840 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-crt-multibyte-l1-1-0.dll; size: 26304 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-crt-private-l1-1-0.dll; size: 70848 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-crt-process-l1-1-0.dll; size: 19648 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-crt-runtime-l1-1-0.dll; size: 23232 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-crt-stdio-l1-1-0.dll; size: 24768 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-crt-string-l1-1-0.dll; size: 24768 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-crt-time-l1-1-0.dll; size: 21184 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\api-ms-win-crt-utility-l1-1-0.dll; size: 19136 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\awt.dll; size: 1517184 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\decora_sse.dll; size: 88192 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\dt_shmem.dll; size: 30336 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\dt_socket.dll; size: 25216 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\fontmanager.dll; size: 288896 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\freetype.dll; size: 663680 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\fxplugins.dll; size: 126080 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\glass.dll; size: 270464 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\glib-lite.dll; size: 618624 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\gstreamer-lite.dll; size: 908416 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\hprof.dll; size: 158848 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\instrument.dll; size: 124544 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\j2pcsc.dll; size: 19584 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\j2pkcs11.dll; size: 69248 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\jaas_nt.dll; size: 21120 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\jabswitch.exe; size: 34944 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\java-rmi.exe; size: 16000 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\java.dll; size: 159872 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\java.exe; size: 202368 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\JavaAccessBridge-64.dll; size: 148608 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\javafx_font.dll; size: 72320 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\javafx_iio.dll; size: 166016 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\javaw.exe; size: 202880 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\java_crw_demo.dll; size: 29824 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\jawt.dll; size: 14976 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\JAWTAccessBridge-64.dll; size: 16000 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\jdwp.dll; size: 202880 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\jfr.exe; size: 16000 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\jfxmedia.dll; size: 147072 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\jfxwebkit.dll; size: 60869248 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:34 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\jjs.exe; size: 16000 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\jli.dll; size: 175744 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\jpeg.dll; size: 163968 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\jsdt.dll; size: 19072 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\jsound.dll; size: 35968 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\jsoundds.dll; size: 31872 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\keytool.exe; size: 16000 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\kinit.exe; size: 16000 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\klist.exe; size: 16000 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\ktab.exe; size: 16000 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\lcms.dll; size: 244352 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\management.dll; size: 37504 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\mlib_image.dll; size: 654464 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\msvcp140.dll; size: 627992 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\msvcr100.dll; size: 829264 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\net.dll; size: 98944 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\nio.dll; size: 61056 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\npt.dll; size: 19584 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\orbd.exe; size: 16512 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\pack200.exe; size: 16000 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\policytool.exe; size: 16512 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\prism_common.dll; size: 61568 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\prism_d3d.dll; size: 132224 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\prism_es2.dll; size: 51328 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\prism_sw.dll; size: 99456 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\rmid.exe; size: 16000 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\rmiregistry.exe; size: 16000 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\server\jvm.dll; size: 9004160 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\server\Xusage.txt; size: 1423 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\servertool.exe; size: 16512 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\splashscreen.dll; size: 206464 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\sunec.dll; size: 136832 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\sunmscapi.dll; size: 38016 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\tnameserv.exe; size: 16512 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\ucrtbase.dll; size: 997056 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\unpack.dll; size: 80000 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\unpack200.exe; size: 199808 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\vcruntime140.dll; size: 85784 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\verify.dll; size: 49280 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\w2k_lsa_auth.dll; size: 24704 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\WindowsAccessBridge-64.dll; size: 128640 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:33 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\bin\zip.dll; size: 78976 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:34 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\CLASSPATH_EXCEPTION_NOTE; size: 552 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:33 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\DISCLAIMER; size: 2758 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\accessibility.properties; size: 149 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:34 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\amd64\jvm.cfg; size: 1631 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\calendars.properties; size: 2479 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\charsets.jar; size: 3090350 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:35 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\classlist; size: 84355 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:34 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\cmm\CIEXYZ.pf; size: 784 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\cmm\GRAY.pf; size: 556 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\cmm\LINEAR_RGB.pf; size: 488 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\cmm\PYCC.pf; size: 234080 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\cmm\sRGB.pf; size: 6876 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\content-types.properties; size: 5548 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\crs-agent.jar; size: 2144225 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:35 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\currency.data; size: 4102 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:34 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\ext\access-bridge-64.jar; size: 196024 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:37 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\ext\cldrdata.jar; size: 3837863 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:38 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\ext\dnsns.jar; size: 8150 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\ext\jaccess.jar; size: 43839 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\ext\jfxrt.jar; size: 9045602 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:39 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\ext\legacy8ujsse.jar; size: 430824 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\ext\localedata.jar; size: 1178256 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\ext\meta-index; size: 1536 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:34 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\ext\nashorn.jar; size: 1993104 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:40 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\ext\openjsse.jar; size: 1325799 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\ext\sunec.jar; size: 38038 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\ext\sunjce_provider.jar; size: 265425 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\ext\sunmscapi.jar; size: 43121 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\ext\sunpkcs11.jar; size: 269438 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\ext\zipfs.jar; size: 68248 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\flavormap.properties; size: 3928 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:34 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\fontconfig.bfc; size: 3778 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\fontconfig.properties.src; size: 11575 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\hijrah-config-umalqura.properties; size: 14959 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\images\cursors\cursors.properties; size: 1280 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\images\cursors\invalid32x32.gif; size: 153 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\images\cursors\win32_CopyDrop32x32.gif; size: 165 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\images\cursors\win32_CopyNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\images\cursors\win32_LinkDrop32x32.gif; size: 168 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\images\cursors\win32_LinkNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\images\cursors\win32_MoveDrop32x32.gif; size: 147 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\images\cursors\win32_MoveNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\javafx.properties; size: 56 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\jce.jar; size: 95887 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:35 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\jfr\default.jfc; size: 30557 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:34 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\jfr\profile.jfc; size: 30515 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\jfr.jar; size: 886654 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:35 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\jfxswt.jar; size: 33464 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\jsse.jar; size: 1918778 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\jvm.hprof.txt; size: 4226 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:34 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\logging.properties; size: 2455 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\management\jmxremote.access; size: 3998 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\management\jmxremote.password.template; size: 2856 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\management\management.properties; size: 14630 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\management\snmp.acl.template; size: 3376 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\management-agent.jar; size: 369 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:35 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\meta-index; size: 3148 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:34 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\net.properties; size: 5352 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\psfont.properties.ja; size: 3793 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\psfontj2d.properties; size: 11390 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\resources.jar; size: 3518605 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:36 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\rt.jar; size: 63076967 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:37 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\security\blacklisted.certs; size: 2488 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:35 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\security\cacerts; size: 167865 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\security\java.policy; size: 2567 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\security\java.security; size: 49327 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\security\legacy8ujsse.security; size: 895 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\security\openjsse.security; size: 1915 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\security\policy\limited\local_policy.jar; size: 1040 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\security\policy\limited\US_export_policy.jar; size: 620 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\security\policy\unlimited\local_policy.jar; size: 638 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\security\policy\unlimited\US_export_policy.jar; size: 620 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\sound.properties; size: 1210 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\tzdb.dat; size: 107865 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\lib\tzmappings; size: 9577 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\LICENSE; size: 19274 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:33 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\OPENJFX_LICENSE; size: 19274 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\OPENJFX_THIRD_PARTY_README; size: 169788 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\readme.txt; size: 1214 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:35 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\release; size: 239 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\THIRD_PARTY_README; size: 167579 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:53:33 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\jre\Welcome.html; size: 1168 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\.install4j\i4jdel.exe; size: 91120 bytes; exists: false
+       File options set to: [fileTime: Fri Apr 01 06:36:48 BST 2022, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\.install4j\i4jinst.dll; size: 171008 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\UninstallSiteManager.exe; size: 294008 bytes; exists: false
+       File options set to: [fileTime: Fri Apr 01 06:36:48 BST 2022, mode: 700, overwriteMode: If newer, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\CPL\DEFAULT\help.properties; size: 318 bytes; exists: false
+       File options set to: [fileTime: Fri Apr 01 06:36:48 BST 2022, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\CPL\cpl11_0alarmshelp.jar; size: 373731 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\CPL\cpl11_1alarmshelp.jar; size: 373734 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\CPL\cpl11_2alarmshelp.jar; size: 368735 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\CPL\cpl11_3alarmshelp.jar; size: 368551 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\CPL\cpl11_5alarmshelp.jar; size: 373731 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\CPL\cpl11_6alarmshelp.jar; size: 377543 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\CPL\cpl12_0alarmshelp.jar; size: 377421 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\CPL\cpl12_1alarmshelp.jar; size: 377358 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\CPL\cpl12_25alarmshelp.jar; size: 752710 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\CPL\cpl12_3alarmshelp.jar; size: 377358 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\CPL\cpl12_4alarmshelp.jar; size: 752710 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\CPL\cpl12_6alarmshelp.jar; size: 752710 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\CPL\cpl12_7alarmshelp.jar; size: 752710 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\CPL\cpl13_05alarmshelp.jar; size: 752710 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\CPL\cpl13_2alarmshelp.jar; size: 752710 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\CPL\cpl13_3alarmshelp.jar; size: 752710 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\CPL\help.properties; size: 1430 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\DEFAULT\help.properties; size: 323 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\DEFAULT\ometoolshelp.jar; size: 128223 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\help.properties; size: 3648 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome11_0alarmshelp.jar; size: 1444083 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome11_0help.jar; size: 2032867 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome11_1alarmshelp.jar; size: 1906314 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome11_1help.jar; size: 2113477 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome11_2alarmshelp.jar; size: 1686328 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome11_2help.jar; size: 2124758 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome11_3alarmshelp.jar; size: 1685775 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome11_3help.jar; size: 2123936 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome11_5alarmshelp.jar; size: 1444083 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome11_5help.jar; size: 2032867 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome11_6alarmshelp.jar; size: 1855530 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome11_6help.jar; size: 2156848 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_0alarmshelp.jar; size: 2465554 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_0help.jar; size: 2137415 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_1alarmshelp.jar; size: 4275667 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_1help.jar; size: 2509915 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_25alarmshelp.jar; size: 3910641 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_25help.jar; size: 2529475 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_3alarmshelp.jar; size: 4265979 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_3help.jar; size: 2971101 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_4alarmshelp.jar; size: 3996122 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_4help.jar; size: 3037904 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_65alarmshelp.jar; size: 4024067 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_65help.jar; size: 3120157 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_6alarmshelp.jar; size: 3877931 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_6help.jar; size: 3081268 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_72alarmshelp.jar; size: 2380106 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_72help.jar; size: 2205722 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_73alarmshelp.jar; size: 2380106 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_73help.jar; size: 2188454 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_7alarmshelp.jar; size: 2462929 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_7help.jar; size: 2799104 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_85alarmshelp.jar; size: 2551552 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_85help.jar; size: 2210878 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_8alarmshelp.jar; size: 2541162 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome12_8help.jar; size: 2183687 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome13_05alarmshelp.jar; size: 3991490 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome13_05help.jar; size: 3028417 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome13_2alarmshelp.jar; size: 3977609 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome13_2help.jar; size: 3036923 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome13_3alarmshelp.jar; size: 3997908 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome13_3help.jar; size: 3029626 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome14_0alarmshelp.jar; size: 3868847 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome14_0help.jar; size: 2170321 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome14_1alarmshelp.jar; size: 4193239 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome14_1help.jar; size: 2193169 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome15_0alarmshelp.jar; size: 4240166 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\OME\ome15_0help.jar; size: 2219333 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl10050aa31_cplUFirefly.jar; size: 3299782 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl10050aa31_cpldefaultDescription.jar; size: 753154 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl10110aa68_cplUFirefly.jar; size: 3305975 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl10110aa68_cpldefaultDescription.jar; size: 837003 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl10200ac13_cplUFirefly.jar; size: 3359750 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl10200ac13_cpldefaultDescription.jar; size: 897030 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl11000ac91_cplUFirefly.jar; size: 3362730 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl11000ac91_cpldefaultDescription.jar; size: 901238 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl11150aa30_cplUFirefly.jar; size: 3365947 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl11150aa30_cpldefaultDescription.jar; size: 919668 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl11200ab45_cplUFirefly.jar; size: 3366799 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl11200ab45_cpldefaultDescription.jar; size: 957382 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl11300aa16_cplUFirefly.jar; size: 3366799 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl11300aa16_cpldefaultDescription.jar; size: 950491 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl11600ab25_cplUFirefly.jar; size: 3366941 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl11600ab25_cpldefaultDescription.jar; size: 1005072 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl12010aa18_cplUFirefly.jar; size: 3368275 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl12010aa18_cpldefaultDescription.jar; size: 986043 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl12100ad42_cplUFirefly.jar; size: 3363526 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl12100ad42_cpldefaultDescription.jar; size: 1036881 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl12210aa08_cplUFirefly.jar; size: 3363625 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl12210aa08_cpldefaultDescription.jar; size: 1050264 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl12300ab89_cplUFirefly.jar; size: 3364075 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl12300ab89_cpldefaultDescription.jar; size: 1102599 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl12400ab03_cplUFirefly.jar; size: 3364290 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl12400ab03_cpldefaultDescription.jar; size: 1107317 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl12600ac08_cplUFirefly.jar; size: 3357484 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl12600ac08_cpldefaultDescription.jar; size: 1166227 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl12700aa93_cplUFirefly.jar; size: 3360365 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl12700aa93_cpldefaultDescription.jar; size: 1179310 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl13060aa06_cplUFirefly.jar; size: 3363573 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl13060aa06_cpldefaultDescription.jar; size: 1073691 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl13200ab02_cplUFirefly.jar; size: 3363191 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl13200ab02_cpldefaultDescription.jar; size: 1076114 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl13250aa15_cplUFirefly.jar; size: 3363191 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl13250aa15_cpldefaultDescription.jar; size: 1076180 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl13300aa18_cplUFirefly.jar; size: 3363189 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\cpl13300aa18_cpldefaultDescription.jar; size: 1076236 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen10050aa31_genLocalize.jar; size: 827155 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen10050aa31_genPatchSlvColors.jar; size: 92698 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen10050aa31_genRelease.jar; size: 21887403 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen10110aa68_genLocalize.jar; size: 907739 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen10110aa68_genPatchSlvColors.jar; size: 102001 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen10110aa68_genRelease.jar; size: 23737390 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen10200ac13_genLocalize.jar; size: 955560 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen10200ac13_genRelease.jar; size: 24451968 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen11000ac91_genLocalize.jar; size: 1956720 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen11000ac91_genRelease.jar; size: 26084975 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen11150aa30_genLocalize.jar; size: 2002911 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen11150aa30_genRelease.jar; size: 27521642 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen11200ab45_genLocalize.jar; size: 2010815 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen11200ab45_genRelease.jar; size: 27634437 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen11300aa16_genLocalize.jar; size: 2011618 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen11300aa16_genRelease.jar; size: 27646387 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen11600ab25_genLocalize.jar; size: 2043144 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen11600ab25_genRelease.jar; size: 28258953 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12010aa18_genLocalize.jar; size: 2058034 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12010aa18_genRelease.jar; size: 28375961 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12100ad42_genLocalize.jar; size: 2142401 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12100ad42_genRelease.jar; size: 30179895 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12210aa08_genLocalize.jar; size: 2153877 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12210aa08_genRelease.jar; size: 30235927 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12300ab89_genLocalize.jar; size: 2178756 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12300ab89_genRelease.jar; size: 30877182 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12400ab03_genLocalize.jar; size: 2186444 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12400ab03_genRelease.jar; size: 31410955 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12600ac08_genLocalize.jar; size: 2233892 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12600ac08_genRelease.jar; size: 32171440 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12660aa17_genPatchRelease.jar; size: 193907 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12660aa21_genLocalize.jar; size: 2233698 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12660aa21_genRelease.jar; size: 32185550 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12700aa93_genLocalize.jar; size: 2257785 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12700aa93_genRelease.jar; size: 32315968 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12720ab58_genLocalize.jar; size: 2273641 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12720ab58_genRelease.jar; size: 32494441 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12730aa18_genLocalize.jar; size: 2274419 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12730aa18_genRelease.jar; size: 32578357 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12800ab21_genLocalize.jar; size: 2305846 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12800ab21_genRelease.jar; size: 33030959 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen13060aa06_genLocalize.jar; size: 2170217 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen13060aa06_genRelease.jar; size: 30777872 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen13200ab02_genLocalize.jar; size: 2172237 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen13200ab02_genRelease.jar; size: 30911502 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen13250aa15_genLocalize.jar; size: 2172457 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen13250aa15_genRelease.jar; size: 30945426 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen13300aa18_genLocalize.jar; size: 2172133 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen13300aa18_genRelease.jar; size: 30926981 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen14000ab14_genLocalize.jar; size: 2244453 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen14000ab14_genRelease.jar; size: 32568909 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen14100aa48_genLocalize.jar; size: 2244996 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen14100aa48_genRelease.jar; size: 32608517 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen15000ab40_genLocalize.jar; size: 2309040 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen15000ab40_genRelease.jar; size: 33437900 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome10050aa31_omeUFirefly.jar; size: 4750370 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome10050aa31_omedefaultDescription.jar; size: 1417214 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome10110aa68_omeUFirefly.jar; size: 4776629 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome10110aa68_omedefaultDescription.jar; size: 1598616 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome10200ac13_omeUFirefly.jar; size: 4873824 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome10200ac13_omedefaultDescription.jar; size: 1698339 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome11000ac91_omeUFirefly.jar; size: 4055953 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome11000ac91_omedefaultDescription.jar; size: 3193087 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome11150aa30_omeUFirefly.jar; size: 4097490 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome11150aa30_omedefaultDescription.jar; size: 3202881 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome11200ab45_omeUFirefly.jar; size: 4096360 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome11200ab45_omedefaultDescription.jar; size: 3271409 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome11300aa16_omeUFirefly.jar; size: 4096360 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome11300aa16_omedefaultDescription.jar; size: 3264667 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome11600ab25_omeUFirefly.jar; size: 4097656 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome11600ab25_omedefaultDescription.jar; size: 3369811 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12010aa18_omeUFirefly.jar; size: 4102102 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12010aa18_omedefaultDescription.jar; size: 3369178 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12100ad42_omeUFirefly.jar; size: 4141523 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12100ad42_omedefaultDescription.jar; size: 3564338 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12210aa08_omeUFirefly.jar; size: 4141625 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12210aa08_omedefaultDescription.jar; size: 3583360 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12300ab89_omeUFirefly.jar; size: 4194455 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12300ab89_omedefaultDescription.jar; size: 3710090 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12400ab03_omeUFirefly.jar; size: 4194693 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12400ab03_omedefaultDescription.jar; size: 2313780 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12600ac08_omeUFirefly.jar; size: 4201864 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12600ac08_omedefaultDescription.jar; size: 2452011 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12660aa21_omeUFirefly.jar; size: 4201864 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12660aa21_omedefaultDescription.jar; size: 2452290 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12700aa93_omeUFirefly.jar; size: 4216950 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12700aa93_omedefaultDescription.jar; size: 2504338 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12720ab58_omeUFirefly.jar; size: 4219478 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12720ab58_omedefaultDescription.jar; size: 2268616 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12730aa18_omeUFirefly.jar; size: 4219478 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12730aa18_omedefaultDescription.jar; size: 2270062 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12800ab21_omeUFirefly.jar; size: 4209167 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12800ab21_omedefaultDescription.jar; size: 2285189 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome13060aa06_omeUFirefly.jar; size: 4192929 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome13060aa06_omedefaultDescription.jar; size: 2308276 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome13200ab02_omeUFirefly.jar; size: 4192793 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome13200ab02_omedefaultDescription.jar; size: 2304282 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome13250aa15_omeUFirefly.jar; size: 4192793 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome13250aa15_omedefaultDescription.jar; size: 2304347 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome13300aa18_omeUFirefly.jar; size: 4192791 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome13300aa18_omedefaultDescription.jar; size: 2304523 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome14000ab14_omeUFirefly.jar; size: 4203562 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome14000ab14_omedefaultDescription.jar; size: 2363695 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome14100aa48_omeUFirefly.jar; size: 4203562 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome14100aa48_omedefaultDescription.jar; size: 2365319 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome15000ab40_omeUFirefly.jar; size: 4213319 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome15000ab40_omedefaultDescription.jar; size: 2420019 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\SiteManager.exe; size: 294008 bytes; exists: false
+       File options set to: [fileTime: Fri Apr 01 06:36:48 BST 2022, mode: 755, overwriteMode: If newer, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\SiteManager.vmoptions; size: 248 bytes; exists: false
+       File options set to: [fileTime: Fri Apr 01 06:36:48 BST 2022, mode: 644, overwriteMode: Never, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\base\gui_standalone.properties; size: 408 bytes; exists: false
+       File options set to: [fileTime: Fri Apr 01 06:36:48 BST 2022, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\packaging\cpl\display.properties; size: 277 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\packaging\cpl\support.properties; size: 11283 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\packaging\ome\display.properties; size: 628 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\packaging\ome\support.properties; size: 11950 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\packaging\omecpl\display.properties; size: 620 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\packaging\omecpl\support.properties; size: 11559 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\Banner-SMProfile-sig.xml; size: 1297 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\SiteManagerHelpViewer.exe; size: 292984 bytes; exists: false
+       File options set to: [fileTime: Fri Apr 01 06:36:48 BST 2022, mode: 755, overwriteMode: If newer, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\SiteManagerHelpViewer.vmoptions; size: 248 bytes; exists: false
+       File options set to: [fileTime: Fri Apr 01 06:36:48 BST 2022, mode: 644, overwriteMode: Never, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\log4j2.xml; size: 2898 bytes; exists: false
+       File options set to: [fileTime: Fri Apr 01 06:36:48 BST 2022, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\packaging\base\display.properties; size: 599 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\packaging\base\support.properties; size: 20587 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\packaging\plugin\display.properties; size: 123 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\packaging\plugin\sftpserver\display.properties; size: 188 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\packaging\plugin\sftpserver\support.properties; size: 4868 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\packaging\plugin\support.properties; size: 5047 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\jspWin.dll; size: 107008 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\jspWinNm.DLL; size: 60156 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\jspWinRni.DLL; size: 53248 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\jspWinRnia.DLL; size: 35992 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\base\DEFAULT\help.properties; size: 266 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\base\generalhelp.jar; size: 1027545 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\HELP\base\help.properties; size: 291 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\Readme.txt; size: 1930 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\SiteManagerVersion.txt; size: 78 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\config6500.properties; size: 5363 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12850ab52_genLocalize.jar; size: 2320098 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\gen12850ab52_genRelease.jar; size: 33658242 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12850ab52_omeUFirefly.jar; size: 4195165 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\release\ome12850ab52_omedefaultDescription.jar; size: 2232904 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\SiteManager.properties; size: 536 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\SiteManagerProperties.jar; size: 4989 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\SiteManagerVersion.txt; size: 78 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\base.jar; size: 7145047 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\consolidation.jar; size: 223526 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\helpviewer.jar; size: 30224 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\icons.jar; size: 299865 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\images.jar; size: 66688776 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\launch.jar; size: 187676 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\Omgr_lib\AccessControlClient.jar; size: 191258 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\Omgr_lib\desktop.jar; size: 236266 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\README.txt; size: 1374 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\aopalliance-1.0.jar; size: 4467 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\aspectj1.8\aspectjrt.jar; size: 117099 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\batik-export.jar; size: 214155 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\commons-lang3-3.3.2.jar; size: 412740 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\controlsfx-8.40.11-SNAPSHOT.jar; size: 953526 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\disruptor-3.0.0.jar; size: 66257 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\ftpclient.jar; size: 27726 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\gdk_birdbeak.jar; size: 3963 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\gson-2.2.4.jar; size: 190432 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\guice-3.0.jar; size: 710492 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\javafx-dialogs-0.0.3.jar; size: 118212 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\javagroup.jar; size: 32693 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\javax.inject-1.jar; size: 2497 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\jcommon-1.0.17.jar; size: 506386 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\jetty-all-9.0.5.v20130815.jar; size: 2283647 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\jfreechart-1.0.14.jar; size: 1461633 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\jhall.jar; size: 588596 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\jlfgr-1_0.jar; size: 114580 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\jta20.jar; size: 128769 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\log4j-api-2.17.1.jar; size: 301873 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\log4j-core-2.17.1.jar; size: 1790452 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\maverick-j2ssh.jar; size: 793921 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\openjfx-dialogs-1.0.2.jar; size: 148557 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\serial.jar; size: 65728 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\slf4j-api-1.7.7.jar; size: 29257 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\slf4j-nop-1.7.7.jar; size: 4090 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\lib\webswing-api.jar; size: 9294 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\base\zui.jar; size: 564733 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\plugin\sftpserver\lib\LICENSE.txt; size: 2656 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\plugin\sftpserver\lib\commons-vfs2-2.0.jar; size: 415578 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\plugin\sftpserver\lib\logback.jar; size: 409700 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\plugin\sftpserver\lib\maverick-sshd.jar; size: 832584 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\plugin\sftpserver\lib\slf4j.jar; size: 29881 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\plugin\sftpserver\sftpserver.jar; size: 26374 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\.install4j\inst_jre.cfg; size: 68 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:55:46 BST 2022, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\.install4j\pref_jre.cfg; size: 42 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:55:46 BST 2022, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\.install4j\i4jruntime.jar; size: 1821524 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:55:46 BST 2022, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\Program Files\Site Manager_1.16.0\.install4j\MessagesDefault; size: 33678 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\.install4j\i4jparams.conf; size: 181950 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\.install4j\stats.properties; size: 3527 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\.install4j\user.jar; size: 42636 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\.install4j\user\baseInstall.jar; size: 158132 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\.install4j\i4j_extf_0_la70pl.utf8; size: 33678 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\.install4j\i4j_extf_1_la70pl.gif; size: 1691 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\.install4j\i4j_extf_2_la70pl.txt; size: 10735 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\.install4j\i4j_extf_3_la70pl.txt; size: 400 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\.install4j\i4j_extf_4_la70pl_n0hd6j.ico; size: 67646 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\.install4j\i4j_extf_5_la70pl_18gg8kx.png; size: 9202 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\.install4j\i4j_extf_5_la70pl_18gg8kx@2x.png; size: 15419 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\.install4j\i4j_extf_6_la70pl.gif; size: 31340 bytes; exists: false
+       Install file: C:\Program Files\Site Manager_1.16.0\.install4j\installer.ico; size: 19518 bytes; exists: false
+       Execute action successful after 55558 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: BANNER_ENABLE :1
+[INFO] com.install4j.runtime.beans.actions.files.MoveFileAction [ID 298]: Execute action
+       Property destinationFile: OME\SMProfile-sig.xml
+       Property destinationRoot: Installation directory
+       Property directoryFilter: null
+       Property directoryMode: 755
+       Property fileFilter: null
+       Property files: [OME\Banner-SMProfile-sig.xml]
+       Property filesRoot: Installation directory
+       Property mode: 644
+       Property overwriteMode: Always
+       Property uninstallMode: If created
+       Property delay: false
+       Property recursive: true
+       Property rollbackSupported: true
+       Property shared: false
+       Property showFileNames: true
+       Property showProgress: false
+       Property triggerReboot: false
+       Move C:\Program Files\Site Manager_1.16.0\OME\Banner-SMProfile-sig.xml to C:\Program Files\Site Manager_1.16.0\OME\SMProfile-sig.xml
+       Install file: C:\Program Files\Site Manager_1.16.0\OME\SMProfile-sig.xml; size: 1297 bytes; exists: false
+       File options set to: [fileTime: Fri Apr 01 06:36:48 BST 2022, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Backing up C:\Program Files\Site Manager_1.16.0\OME\Banner-SMProfile-sig.xml
+       Execute action successful after 15 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: BANNER_ENABLE:1
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Checking for USEr_INSTALL_MODE for renaming gui.properties, STANDALONE mode : true
+[INFO] com.install4j.runtime.beans.actions.files.MoveFileAction [ID 890]: Execute action
+       Property destinationFile: base\gui.properties
+       Property destinationRoot: Installation directory
+       Property directoryFilter: null
+       Property directoryMode: 755
+       Property fileFilter: null
+       Property files: [base\gui_standalone.properties]
+       Property filesRoot: Installation directory
+       Property mode: 644
+       Property overwriteMode: Always
+       Property uninstallMode: If created
+       Property delay: false
+       Property recursive: true
+       Property rollbackSupported: true
+       Property shared: false
+       Property showFileNames: true
+       Property showProgress: false
+       Property triggerReboot: true
+       Move C:\Program Files\Site Manager_1.16.0\base\gui_standalone.properties to C:\Program Files\Site Manager_1.16.0\base\gui.properties
+       Install file: C:\Program Files\Site Manager_1.16.0\base\gui.properties; size: 408 bytes; exists: false
+       File options set to: [fileTime: Fri Apr 01 06:36:48 BST 2022, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Backing up C:\Program Files\Site Manager_1.16.0\base\gui_standalone.properties
+       Execute action successful after 12 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Checking for USER_INSTALL_MODE for renaming gui.properties, 1C_INTEGRATED: false
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Checking for USEr_INSTALL_MODE for renaming commandset files for 1C_INTEGRATED MODE, 1C_INTEGRATED mode : false
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Checking for USEr_INSTALL_MODE for renaming commadset file for cpl , 1C_INTEGRATED mode : false
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Check for creating program group: true
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action
+       Property categories: Application
+       Property linkDirectory: 
+       Property programGroupEntryConfigs: [ProgramGroupFileConfig{target=SiteManager.exe, arguments='', runAsAdministrator=false}]
+       Property programGroupName: 6500 Site Manager_1.16.0
+       Property uninstallerMenuName: SiteManager Uninstaller
+       Property addDefaultLauncherLinks: true
+       Property addUninstaller: true
+       Property allUsers: true
+       Property failForSymlinksNotCreated: false
+       Property rollbackSupported: true
+       Property unixMenuEntries: false
+       Property unixSymlinks: false
+       Variable changed: sys.symlinkDir=/usr/local/bin[class java.lang.String]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\6500 Site Manager_1.16.0\SiteManagerHelpViewer.lnk; size: 2123 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:55:46 BST 2022, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\6500 Site Manager_1.16.0\SiteManager Uninstaller.lnk; size: 2116 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:55:46 BST 2022, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\6500 Site Manager_1.16.0\Site Manager.lnk; size: 2101 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:55:46 BST 2022, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 181 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 1323]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_33
+       Property variableName: shortcut_path
+       Property failIfNull: false
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: shortcut_path=C:\Users\srideout\OneDrive - Ciena Corporation\Desktop[class java.lang.String]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Shortcut is going to be created, Installation mode :STANDALONE
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateStartMenuEntryAction [ID 1324]: Execute action
+       Property arguments: 
+       Property categories: Application
+       Property entryName: C:\Users\srideout\OneDrive - Ciena Corporation\Desktop\SiteManager_1.16.0
+       Property file: SiteManager.exe
+       Property icon: i4j_extf_4_la70pl_n0hd6j.ico
+       Property programGroupName: 
+       Property startIn: null
+       Property unixIconFile: null
+       Property allUsers: true
+       Property rollbackSupported: true
+       Property runAsAdministrator: false
+       Install file: C:\Users\srideout\OneDrive - Ciena Corporation\Desktop\SiteManager_1.16.0.lnk; size: 2101 bytes; exists: false
+       File options set to: [fileTime: Wed May 18 08:55:47 BST 2022, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 39 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]:  USER_INSTALL_MODE :STANDALONE ADD_REMOVE_PROGRAM_ENTRY:YES Add/Remove Program entry allowed:true
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 11]: Execute action
+       Property icon: i4j_extf_4_la70pl_n0hd6j.ico
+       Property iconSource: Custom icon
+       Property itemName: 6500 Site Manager 1.16.0
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 20 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 1130]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_36
+       Property rollbackSupported: false
+       C:\Program Files\Site Manager_1.16.0
+       Appending File Value = #
+       Appending File Value = #These are changed by a script at the loadbuild time to the currect
+       Appending File Value = #values
+       Appending File Value = #
+       Appending File Value = Base_dirLabel=Site Manager
+       Appending File Value = Base_shortcutLabel=Site Manager
+       Appending File Value = Base_name=Site Manager
+       Appending File Value = Base_relDesc=Consolidated Craft Base 
+       Appending File Value = Base_shortName=Site Manager
+       Appending File Value = Base_release=1
+       Appending File Value = Base_subRelease=21
+       Appending File Value = Base_externalLabel=sm_base_rel21.1_20220401_0048
+       Appending File Value = Base_internalLabel=sm_base_rel21.1_20220401_0048
+       Appending File Value = OME_internalLabel=SM_OME_CPL_rel1.16.0_20220401_0048
+       Appending File Value = OME_externalLabel=SM_OME_CPL_rel1.16.0_20220401_0048
+       Appending File Value = OME_name=6500 Site Manager
+       Appending File Value = 
+       Appending File Value = OME_recentLoad=ome11600ab52
+       Appending File Value = OME_relDesc=(release 1.16.0, version ab52)
+       Appending File Value = Release_Support_name=15.00, 14.10, 14.00, 13.30, 13.25, 13.2, 13.06, 13.01, 13.00, 12.85, 12.80, 12.73, 12.72, 12.71, 12.70, 12.66, 12.63, 12.62, 12.61, 12.60, 12.46, 12.45, 12.43, 12.42, 12.41, 12.40, 12.35, 12.34, 12.33, 12.32, 12.31, 12.30, 12.25, 12.21, 12.20, 12.10, 12.03, 12.02, 12.01, 12.00, 11.61, 11.60, 11.23, 11.22, 11.21, 11.20, 11.18, 11.17, 11.16, 11.15, 11.00, 10.20, 10.11, 10.10, 10.05, 10.00
+       appending deleteWorked = true
+       appending renameWorked = true
+       Execute action successful after 30 ms
+[INFO] com.install4j.runtime.beans.actions.files.DeleteFileAction [ID 1563]: Execute action
+       Property directoryFilter: null
+       Property fileFilter: null
+       Property files: [temp, C:\Program Files\Site Manager_1.16.0\Temp.properties]
+       Property filesRoot: null
+       Property backupForRollback: true
+       Property recursive: false
+       Property rollbackSupported: true
+       Property showFileNames: true
+       Property showProgress: false
+       The file "C:\Program Files\Site Manager_1.16.0\temp" does not exist
+       The file "C:\Program Files\Site Manager_1.16.0\Temp.properties" does not exist
+       Execute action successful after 3 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Checking for USER_INSTALL_MODE for classpath update, 1C_INTEGRATED: false
+       Checking for Platform as Windows  for the classpath update:true
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Checking for USER_INSTALL_MODE for classpath update, 1C_INTEGRATED: false
+       Checking platform type as   Linux for classpath update:false
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Checking for USER_INSTALL_MODE for classpath update, 1C_INTEGRATED: false
+       Checking for Platform as Windows  for the classpath update:true
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Checking installation mdoe for setting VM argument, mode : STANDALONE Platform, is WIndows :true
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Checking installation mdoe for setting VM argument, mode : STANDALONE Platform: Is Linux ? :false
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Checking installation mdoe for setting VM argument, mode : STANDALONE Platform: Is Windows ? :true
+[INFO] com.install4j.runtime.beans.actions.misc.AddVmOptionsAction [ID 2300]: Execute action
+       Property launcherId: 35
+       Property macosVmOptionsType: Contained in the application bundle
+       Property vmOptions: [# Please uncomment the below VM parameters to set the Max heap size to 512 MB. By default the  max heap memory has been set , #to 750 MB. You have to comment this parameter if you want to set the heap size at default(750 MB)., #-Xmx512m]
+       Property rollbackSupported: true
+[ERROR] com.install4j.runtime.beans.actions.misc.AddVmOptionsAction [ID 2300]: launcher file null does not exist.
+        Execute action not successful after 6 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Checking installation mdoe for setting VM argument, mode : STANDALONE Platform: Is Linux ? :false
+       Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: Show screen
+       Variable changed: executeLauncherAction=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.actions.finish.ExecuteLauncherAction [ID Windows_x64]: Execute action
+       Property arguments: null
+       Property launcherId: 3088
+       Property rollbackSupported: false
+       execute using batch file
+       Execute action successful after 516 ms
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: command: finish
+       cleaning up
+       Finished

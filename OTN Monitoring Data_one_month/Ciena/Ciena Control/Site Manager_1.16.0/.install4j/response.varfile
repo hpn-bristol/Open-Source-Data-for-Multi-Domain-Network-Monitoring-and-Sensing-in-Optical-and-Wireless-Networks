@@ -1,0 +1,14 @@
+# install4j response file for 6500 Site Manager 1.16.0
+BANNER_ENABLE$Integer=1
+SHORTCUT_PATH=C\:\\Users\\srideout\\OneDrive - Ciena Corporation\\Desktop
+# This variable is used to differentiate the 1C Installation and Standalone installation
+USER_INSTALL_MODE=STANDALONE
+executeLauncherAction$Boolean=true
+sys.adminRights$Boolean=true
+sys.component.3254$Boolean=true
+sys.component.67$Boolean=true
+sys.installationDir=C\:\\Program Files\\Site Manager_1.16.0
+sys.languageId=en
+sys.programGroupAllUsers$Boolean=true
+sys.programGroupDisabled$Boolean=false
+sys.programGroupName=6500 Site Manager_1.16.0
