@@ -1,5 +1,3 @@
-﻿CPE,Wifi_MAC_address,Lifi_MAC_address,5G_interface,wifi_interface,lifi_interface
-CPE1,c8:3a:35:a0:05:fd,None,wwan0,wlxc83a35a005fd,None
-CPE2,c8:3a:35:a4:07:0d,None,wwan0,wlxc83a35a4070d,None
-CPE3,c8:3a:35:ac:04:5d,None,wwan0,wlxc83a35ac045d,None
-CPE4,c8:3a:35:a4:06:9d,00:c0:ca:b5:c6:77,wwan0,wlxc83a35a4069d,wlx00c0cab5c677
+version https://git-lfs.github.com/spec/v1
+oid sha256:5344e6f98c872b0549b33085770e361c3c2f7f896a567d237820cfb32a458c38
+size 333
