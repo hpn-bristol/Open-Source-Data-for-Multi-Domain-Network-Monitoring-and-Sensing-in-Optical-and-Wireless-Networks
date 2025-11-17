@@ -8,7 +8,7 @@
 [![MLflow](https://img.shields.io/badge/MLflow-2.x-ff69b4)](https://mlflow.org/)
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2023b-orange)](https://www.mathworks.com/products/matlab.html)
 
-![Cross-Domain Telemetry Architecture for Optical and Wireless Networks](Telemetry Architecture.png)
+![Cross-Domain Telemetry Architecture for Optical and Wireless Networks](Telemetry architecture.png)
 
 ## One-month Performance Monitoring Data from Optical Networks over NDFF
 
@@ -19,17 +19,17 @@ This dataset contains nearly one month of performance monitoring data collected 
 🧪 Experimental Setup
 
 - Transmitters:
--- Facebook Voyager (PM-16QAM & PM-QPSK, AC powered)
--- ADVA FSP3000 Teraflex (PM-16QAM & PM-QPSK, AC powered)
--- Ciena device (PM-QPSK, DC powered)
+   - Facebook Voyager (PM-16QAM & PM-QPSK, AC powered)
+   - ADVA FSP3000 Teraflex (PM-16QAM & PM-QPSK, AC powered)
+   - Ciena device (PM-QPSK, DC powered)
 
 - Wavelengths: 193.25 THz – 194.45 THz
 
 - Span length: 339 km
 
 - Sampling:
--- Collected every 10 seconds
--- Resampled to 15 minutes
+   - Collected every 10 seconds
+   - Resampled to 15 minutes
 
 📑 Measurements Collected
 
