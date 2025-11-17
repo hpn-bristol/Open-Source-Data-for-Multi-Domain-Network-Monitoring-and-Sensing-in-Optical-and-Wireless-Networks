@@ -1,5 +1,13 @@
 # Open-Source Data for Multi-Domain Network Monitoring and Sensing in Optical and Wireless Networks
 
+[![Python](https://img.shields.io/badge/Python-3.8%7C3.9%7C3.10-blue)](https://www.python.org/)
+[![InfluxDB](https://img.shields.io/badge/InfluxDB-2.x-brightgreen)](https://www.influxdata.com/)
+[![Kafka](https://img.shields.io/badge/Apache%20Kafka-3.x-orange)](https://kafka.apache.org/)
+[![Grafana](https://img.shields.io/badge/Grafana-9.x-yellow)](https://grafana.com/)
+[![Kadeck](https://img.shields.io/badge/Kadeck-Kafka%20UI-blueviolet)](https://www.kadeck.com/)
+[![MLflow](https://img.shields.io/badge/MLflow-2.x-ff69b4)](https://mlflow.org/)
+[![MATLAB](https://img.shields.io/badge/MATLAB-R2023b-orange)](https://www.mathworks.com/products/matlab.html)
+
 ## One-month Performance Monitoring Data from Optical Networks over NDFF
 
 ## Four-week Sensing Data from BDFI and Mshed
