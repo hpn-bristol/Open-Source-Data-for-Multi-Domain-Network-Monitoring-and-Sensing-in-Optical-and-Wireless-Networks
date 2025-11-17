@@ -45,7 +45,7 @@ This dataset contains nearly one month of performance monitoring data collected 
 
 ## Four-week Sensing Data from BDFI and Mshed
 
-
+![Figure 1](Two-week Sensing Data/plots/figure1.png)
 The four-week fibre-sensing campaign was conducted using a bidirectional transmission configuration, where state-of-polarization (SoP) sensing was employed to monitor the fibre link between 19 September and 16 October 2025.
 
 An ADVA Teraflex transponder launches optical carriers into circulators to enable counter-propagating transmission, with endpoint Circulators 1 and 2 interconnected through the live field fibre. Each circulator output is divided by a coupler: 90\% of the optical power is directed to the coherent receiver, while the remaining 10\% passes through a polarizer to enforce single-polarization and to project the RSOP onto the eigenstate of polarizer before being delivered to a polarimeter (EPS PM1000) and a real-time oscilloscope (Tektronix MSO64B) equipped with a photodetector for sensing. For vibration localization, an arbitrary waveform generator (Rigol DG4102) supplies a common trigger to both instruments, constraining inter-instrument timing skew to the nanosecond scale. The transmitted signal is 32-GBaud PM-QPSK; the forward and backward channels are centered at 193.4 THz and 191.3 THz respectively, with bidirectional operation over 7.776 km (MVB-BDFI) and 8 km (MVB-M Shed) of urban fibres. 
