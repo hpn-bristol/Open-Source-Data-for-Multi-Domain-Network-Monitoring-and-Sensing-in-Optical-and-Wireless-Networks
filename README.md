@@ -8,7 +8,7 @@
 [![MLflow](https://img.shields.io/badge/MLflow-2.x-ff69b4)](https://mlflow.org/)
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2023b-orange)](https://www.mathworks.com/products/matlab.html)
 
-![Cross-Domain Telemetry Architecture for Optical and Wireless Networks](Telemetry\ architecture.png)
+![Cross-Domain Telemetry Architecture for Optical and Wireless Networks](Telemetry_architecture.png)
 
 The cross-domain telemetry platform integrates distributed and centralised time-series databases, Kafka telemetry pipelines, local and network-level AI engines, digital twins, and network controllers to collect, stream, and analyse telemetry from optical and wireless networks. It enables real-time monitoring, cross-domain data fusion, and AI-driven network optimisation.
 
