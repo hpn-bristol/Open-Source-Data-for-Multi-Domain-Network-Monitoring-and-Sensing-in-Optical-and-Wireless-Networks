@@ -154,7 +154,7 @@ If you have any questions regarding the dataset or want to have some collaborati
 
 Dr. Shuangyi Yan: shuangyi.yan@bristol.ac.uk (Team Leader & Project Manager)
 
-Dr. Sen Shen: sen.shen@bristol.ac.uk (Optical Networks & Sensing)
+Dr. Sen Shen: sen.shen@bristol.ac.uk (Optical Networks & AI/ML)
 
 Miss. Xueqing Zhou: xueqing.zhou@bristol.ac.uk (Wireless/Radio Access Networks)
 
