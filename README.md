@@ -45,11 +45,11 @@ This dataset contains nearly one month of performance monitoring data collected 
 
 ### OFC2023 Data ([986 km Field Trial of Cascaded ANN-based Link-Penalty Models for QoT Prediction](https://ieeexplore.ieee.org/document/10116127))
 
-The experimental details are documented in our published paper in OFC 2023 (https://ieeexplore.ieee.org/document/10116127). This dataset supports research in end-to-end QoT prediction and multi-vendor equipment performance comparison, among other applications.
+The experimental details are documented in [our published paper](https://ieeexplore.ieee.org/document/10116127) in OFC 2023. This dataset supports research in end-to-end QoT prediction and multi-vendor equipment performance comparison, among other applications.
 
 - Files:
-  - `OFC2023_final.csv`(https://github.com/hpn-bristol/Open-Source-Data-for-Multi-Domain-Network-Monitoring-and-Sensing-in-Optical-and-Wireless-Networks/blob/main/OTN%20Monitoring%20Data_one_month/OFC2023_final.csv)
-  - `OFC2023_total.csv`(https://github.com/hpn-bristol/Open-Source-Data-for-Multi-Domain-Network-Monitoring-and-Sensing-in-Optical-and-Wireless-Networks/blob/main/OTN%20Monitoring%20Data_one_month/OFC2023_total.csv)
+  - [OFC2023_final.csv](https://github.com/hpn-bristol/Open-Source-Data-for-Multi-Domain-Network-Monitoring-and-Sensing-in-Optical-and-Wireless-Networks/blob/main/OTN%20Monitoring%20Data_one_month/OFC2023_final.csv)
+  - [OFC2023_total.csv](https://github.com/hpn-bristol/Open-Source-Data-for-Multi-Domain-Network-Monitoring-and-Sensing-in-Optical-and-Wireless-Networks/blob/main/OTN%20Monitoring%20Data_one_month/OFC2023_total.csv)
  
 - Data Description:
    - The columns A to L represent twelve channels' on/off status
