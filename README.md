@@ -43,20 +43,34 @@ This dataset contains nearly one month of performance monitoring data collected 
 
 📅 Time range: 26/12/2023 → 26/01/2024
 
+### OFC2023 Data ([986 km Field Trial of Cascaded ANN-based Link-Penalty Models for QoT Prediction](https://ieeexplore.ieee.org/document/10116127))
+
+The experimental details are documented in our published paper in OFC 2023 (https://ieeexplore.ieee.org/document/10116127). This dataset supports research in end-to-end QoT prediction and multi-vendor equipment performance comparison, among other applications.
+
+- Files:
+  - `OFC2023_final.csv`(https://github.com/hpn-bristol/Open-Source-Data-for-Multi-Domain-Network-Monitoring-and-Sensing-in-Optical-and-Wireless-Networks/blob/main/OTN%20Monitoring%20Data_one_month/OFC2023_final.csv)
+  - `OFC2023_total.csv`(https://github.com/hpn-bristol/Open-Source-Data-for-Multi-Domain-Network-Monitoring-and-Sensing-in-Optical-and-Wireless-Networks/blob/main/OTN%20Monitoring%20Data_one_month/OFC2023_total.csv)
+ 
+- Data Description:
+   - The columns A to L represent twelve channels' on/off status
+   - The columns M to P are the four testing channels' Q-factor in Node A
+   - The columns Q to T are the four testing channels' Q-factor in Node B
+   - The columns U to X are the four testing channels' Q-factor in Node C
+
 ## Four-week Sensing Data from BDFI and Mshed
 
 ![Experiment_Setup](Four-week%20Sensing%20Data/Experiment_Setup.png)
-The four-week fibre-sensing campaign was conducted using a bidirectional transmission configuration, where state-of-polarization (SoP) sensing was employed to monitor the fibre link between 19 September and 16 October 2025.
+The four-week fibre-sensing campaign was conducted using a bidirectional transmission configuration, where state-of-polarisation (SoP) sensing was employed to monitor the fibre link between 19 September and 16 October 2025.
 
-An ADVA Teraflex transponder launches optical carriers into circulators to enable counter-propagating transmission, with endpoint Circulators 1 and 2 interconnected through the live field fibre. Each circulator output is divided by a coupler: 90\% of the optical power is directed to the coherent receiver, while the remaining 10\% passes through a polarizer to enforce single-polarization and to project the RSOP onto the eigenstate of polarizer before being delivered to a polarimeter (EPS PM1000) and a real-time oscilloscope (Tektronix MSO64B) equipped with a photodetector for sensing. For vibration localization, an arbitrary waveform generator (Rigol DG4102) supplies a common trigger to both instruments, constraining inter-instrument timing skew to the nanosecond scale. The transmitted signal is 32-GBaud PM-QPSK; the forward and backward channels are centered at 193.4 THz and 191.3 THz respectively, with bidirectional operation over 7.776 km (MVB-BDFI) and 8 km (MVB-M Shed) of urban fibres. 
+An ADVA Teraflex transponder launches optical carriers into circulators to enable counter-propagating transmission, with endpoint Circulators 1 and 2 interconnected through the live field fibre. Each circulator output is divided by a coupler: 90\% of the optical power is directed to the coherent receiver, while the remaining 10\% passes through a polariser to enforce single-polarisation and to project the RSOP onto the eigenstate of the polariser before being delivered to a polarimeter (EPS PM1000) and a real-time oscilloscope (Tektronix MSO64B) equipped with a photodetector for sensing. For vibration localisation, an arbitrary waveform generator (Rigol DG4102) supplies a common trigger to both instruments, constraining inter-instrument timing skew to the nanosecond scale. The transmitted signal is 32-GBaud PM-QPSK; the forward and backward channels are centred at 193.4 THz and 191.3 THz respectively, with bidirectional operation over 7.776 km (MVB-BDFI) and 8 km (MVB-M Shed) of urban fibres. 
 
 From 2025/09/19 to 2025/10/08, the data is collected in link BDFI, and from 2025/10/11 to 2025/10/16, the data is collected in link MShed in the formats of mat and CSV. Along the BDFI route, the fibre passes beneath multiple railway tracks near Bristol Temple Meads Station at the 3.2-km point, where it traverses laterally beneath a railway bridge. 
 
-On the automation side, our ISIC end-to-end monitoring platform continuously tracks communication KPIs, like BER, Q-factor, QSNR, received power, etc., and polarisation telemetry (Stokes parameters), with real-time storage and analytics. The data collected by the Polarimeter includes the collection time, S1, S2, and S3 data. Sampling rate: 97656.250 Hz (Ts = 1.024e-05 s). The data collected by the DSO is the collection time and the voltage value.
+On the automation side, our ISIC end-to-end monitoring platform continuously tracks communication KPIs, like BER, Q-factor, QSNR, received power, etc., and polarisation telemetry (Stokes parameters), with real-time storage and analytics. The data collected by the Polarimeter includes the collection time, S1, S2, and S3 data. Sampling rate: 97656.250 Hz (Ts = 1.024e-05 s). The data collected by the DSO includes the collection time and the voltage value.
 
 ## Wireless Access Network Dataset
 
-This dataset is collected from a multiple radio access technologies testbed, the network architecture is as the figure shown.
+This dataset is collected from a multiple radio access technologies testbed, and the network architecture is shown in the figure.
 
 ```mermaid
 graph LR
@@ -88,7 +102,7 @@ Traffic is transmitted from CPE1, CPE2, and CPE3 to CPE4 using iperf with MPTCP 
 | 3   | c8:3a:35:ac:04:5d      | None                  | wwan0        | wlxc83a35ac045d      | None                 |
 | 4   | c8:3a:35:a4:06:9d      | 00:c0:ca:b5:c6:77     | wwan0        | wlxc83a35a4069d      | wlx00c0cab5c677       |
 
-A [24-hour dataset](https://github.com/hpn-bristol/Open-Source-Data-for-Multi-Domain-Network-Optimisation-and-Sensing-in-Optical-Networks-and-WANs/tree/main/Wireless%20Access%20Network_24hours) including the raw data and processed data is generated. For your information, we also provide the [raw data preprocessing code](https://github.com/hpn-bristol/Open-Source-Data-for-Multi-Domain-Network-Optimisation-and-Sensing-in-Optical-Networks-and-WANs/blob/main/Wireless%20Access%20Network_24hours/process_data.ipynb).
+A [24-hour dataset](https://github.com/hpn-bristol/Open-Source-Data-for-Multi-Domain-Network-Optimisation-and-Sensing-in-Optical-Networks-and-WANs/tree/main/Wireless%20Access%20Network_24hours) including the raw data and processed data, is generated. For your information, we also provide the [raw data preprocessing code](https://github.com/hpn-bristol/Open-Source-Data-for-Multi-Domain-Network-Optimisation-and-Sensing-in-Optical-Networks-and-WANs/blob/main/Wireless%20Access%20Network_24hours/process_data.ipynb).
 
 ### Parameters Included in Dataset
 
@@ -148,5 +162,5 @@ Miss. Wanxin Zhao: wanxin.zhao@bristol.ac.uk (Optical Networks & Sensing)
 
 Dr. Ruizhi Yang: ruizhi.yang@bristol.ac.uk (Optical Networks & Quantum)
 
-## ©️ Copyright
+## ©️Copyright
 This open-source dataset is owned and managed by the **Smart Internet Lab, University of Bristol**. The data is provided for academic research and non-commercial use only. For any commercial use, please contact the authors for permission.
