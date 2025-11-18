@@ -137,7 +137,7 @@ WiFi data metrics are as follows:
 #### Additional Notes:
 - Each file in LiFi and WiFi cell data corresponds to a specific CPE, identified by MAC address. The data is presented from the perspective of the access points, such as the amount of data transmitted to and received from each CPE by the access points, and the signal strength detected for each CPE at the access points.
 
-## 🙌Acknowledgment
+## 🙌 Acknowledgment
 
 This work was partly supported by the **European Commission’s Horizon research and innovation program: Allegro project (No. 101092766)** and the **EU-funded project ECO-eNET (No. 10113933)**.
 
@@ -149,7 +149,7 @@ If you use optical data from this repository in your research, please cite the f
 <br>
 
 
-## 📧Contact Information
+## 📧 Contact Information
 If you have any questions regarding the dataset or want to have some collaborations, please feel free to contact:
 
 Dr. Shuangyi Yan: shuangyi.yan@bristol.ac.uk (Team Leader & Project Manager)
@@ -162,5 +162,5 @@ Miss. Wanxin Zhao: wanxin.zhao@bristol.ac.uk (Optical Networks & Sensing)
 
 Dr. Ruizhi Yang: ruizhi.yang@bristol.ac.uk (Optical Networks & Quantum)
 
-## ©️Copyright
+## ©️ Copyright
 This open-source dataset is owned and managed by the **Smart Internet Lab, University of Bristol**. The data is provided for academic research and non-commercial use only. For any commercial use, please contact the authors for permission.
