@@ -10,7 +10,7 @@
 
 ![Cross-Domain Telemetry Architecture for Optical and Wireless Networks](Telemetry_architecture.png)
 
-The cross-domain telemetry platform integrates distributed and centralised time-series databases, Kafka telemetry pipelines, local and network-level AI engines, digital twins, and network controllers to collect, stream, and analyse telemetry from optical and wireless networks. It enables real-time monitoring, cross-domain data fusion, and AI-driven network optimisation.
+The cross-domain telemetry platform integrates distributed and centralised time-series databases, Kafka telemetry pipelines, local and network-level AI engines, digital twins, and network controllers to collect, stream, and analyse monitoring and sensing data from optical and wireless networks. It enables real-time monitoring, cross-domain data fusion, and AI-driven network optimisation.
 
 ## One-month Performance Monitoring Data from Optical Networks over NDFF
 
@@ -147,3 +147,6 @@ Miss. Xueqing Zhou: xueqing.zhou@bristol.ac.uk (Wireless/Radio Access Networks)
 Miss. Wanxin Zhao: wanxin.zhao@bristol.ac.uk (Optical Networks & Sensing)
 
 Dr. Ruizhi Yang: ruizhi.yang@bristol.ac.uk (Optical Networks & Quantum)
+
+## ©️ Copyright
+This open-source dataset is owned and managed by the **Smart Internet Lab, University of Bristol**. The data is provided for academic research and non-commercial use only. For any commercial use, please contact the authors for permission.
