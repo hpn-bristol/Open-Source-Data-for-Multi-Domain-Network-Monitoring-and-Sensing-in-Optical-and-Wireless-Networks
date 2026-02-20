@@ -147,9 +147,7 @@ If you use optical data from this repository in your research, please cite the f
 > [[https://doi.org/10.1364/JOCN.538552](https://ieeexplore.ieee.org/document/10856707)]
 
 > "**S. Shen et al., "Open-Source Data for Multi-Domain Network Monitoring and Sensing in Optical and Wireless Networks," in 2026 Optical Fibre Communications Conference and Exhibition (OFC), March 2026, M3M.4.**" 
-
 <br>
-
 
 ## 📧 Contact Information
 If you have any questions regarding the dataset or want to have some collaborations, please feel free to contact:
