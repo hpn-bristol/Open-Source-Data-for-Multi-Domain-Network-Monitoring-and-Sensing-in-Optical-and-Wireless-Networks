@@ -146,6 +146,8 @@ If you use optical data from this repository in your research, please cite the f
 > "**S. Shen et al., "Unified monitoring and telemetry platform supporting network intelligence in optical networks," in Journal of Optical Communications and Networking, vol. 17, no. 2, pp. 139-151, February 2025, doi: 10.1364/JOCN.538552.**"  
 > [[https://doi.org/10.1364/JOCN.538552](https://ieeexplore.ieee.org/document/10856707)]
 
+> "**S. Shen et al., "Open-Source Data for Multi-Domain Network Monitoring and Sensing in Optical and Wireless Networks," in 2026 Optical Fibre Communications Conference and Exhibition (OFC), March 2026, M3M.4.**" 
+
 <br>
 
 
