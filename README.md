@@ -156,9 +156,9 @@ Dr. Shuangyi Yan: shuangyi.yan@bristol.ac.uk (Team Leader & Project Manager)
 
 Dr. Sen Shen: sen.shen@bristol.ac.uk (Optical Networks & AI/ML)
 
-Miss. Xueqing Zhou: xueqing.zhou@bristol.ac.uk (Wireless/Radio Access Networks)
+Dr. Xueqing Zhou: xueqing.zhou@bristol.ac.uk (Wireless/Radio Access Networks)
 
-Miss. Wanxin Zhao: wanxin.zhao@bristol.ac.uk (Optical Networks & Sensing)
+Dr. Wanxin Zhao: wanxin.zhao@bristol.ac.uk (Optical Networks & Sensing)
 
 Dr. Ruizhi Yang: ruizhi.yang@bristol.ac.uk (Optical Networks & Quantum)
 
